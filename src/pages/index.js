@@ -1,12 +1,13 @@
 import React from "react"
-import { Helmet } from "react-helmet"
-import { Button } from 'reactstrap';
-import { Link } from "gatsby"
-
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import { Helmet } from "react-helmet"
+import { Button } from 'reactstrap';
+import { Link } from "gatsby"
 
 const IndexPage = () => (
   <Layout>
