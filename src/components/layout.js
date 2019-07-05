@@ -7,10 +7,12 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { Link, useStaticQuery, graphql } from "gatsby"
-
 import Header from "./header"
+
 import "./layout.css"
+
+import { Link, useStaticQuery, graphql } from "gatsby"
+import { Helmet } from "react-helmet"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -25,16 +27,58 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0px 1.0875rem 1.45rem`,
-          paddingTop: 0,
-        }}
-      >
+      <Helmet>
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i"
+          type="text/css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/style.css"
+          type="text/css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/css/swiper.css"
+          type="text/css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/css/dark.css"
+          type="text/css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/css/font-icons.css"
+          type="text/css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/css/animate.css"
+          type="text/css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/css/magnific-popup.css"
+          type="text/css"
+        />
+
+        <link
+          rel="stylesheet"
+          href="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/css/responsive.css"
+          type="text/css"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Helmet>
+
+      {/* <!-- Document Wrapper
+      ============================================= --> */}
+      <div id="" className="clearfix">
+        <Header siteTitle={data.site.siteMetadata.title} />
+
         <main>{children}</main>
+
         <footer id="footer" className="dark">
           <div className="container">
             {/* <!-- Footer Widgets
@@ -44,7 +88,7 @@ const Layout = ({ children }) => {
                 <div className="col_one_third">
                   <div className="widget clearfix">
                     <img
-                      src="images/footer-widget-logo.png"
+                      src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/footer-widget-logo.png"
                       alt=""
                       className="footer-logo"
                     />
@@ -378,6 +422,19 @@ const Layout = ({ children }) => {
           {/* <!-- #copyrights end --> */}
         </footer>
       </div>
+
+      {/* <!-- Go To Top
+      ============================================= --> */}
+      <div id="gotoTop" className="icon-angle-up"></div>
+
+      {/* <!-- External JavaScripts
+      ============================================= --> */}
+      <script src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/js/jquery.js"></script>
+      <script src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/js/plugins.js"></script>
+
+      {/* <!-- Footer Scripts
+      ============================================= --> */}
+      <script src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/js/functions.js"></script>
     </>
   )
 }
