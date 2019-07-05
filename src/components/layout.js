@@ -40,6 +40,11 @@ const Layout = ({ children }) => {
         />
         <link
           rel="stylesheet"
+          href="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/css/colors.css"
+          type="text/css"
+        />
+        <link
+          rel="stylesheet"
           href="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/css/swiper.css"
           type="text/css"
         />
