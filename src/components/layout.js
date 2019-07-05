@@ -69,13 +69,58 @@ const Layout = ({ children }) => {
           href="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/css/responsive.css"
           type="text/css"
         />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Helmet>
-
-      {/* <!-- Document Wrapper
-      ============================================= --> */}
-      <div id="" className="clearfix">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />      
+      </Helmet>     
         <Header siteTitle={data.site.siteMetadata.title} />
+
+        {/* <!-- Header
+        ============================================= --> */}
+        <header id="header" className="transparent-header full-header" data-sticky-class="not-dark">
+
+          <div id="header-wrap">
+
+            <div className="container clearfix">
+
+              <div id="primary-menu-trigger"><i className="icon-reorder"></i></div>
+
+              {/* <!-- Logo
+              ============================================= --> */}
+              <div id="logo">
+                <a href="index.html" className="standard-logo" data-dark-logo="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/toastmasters-international-logo-landscape.png"><img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/toastmasters-international-logo-landscape.png" className="mb-0" alt="Toastmasters International Logo" /></a>
+                <a href="index.html" className="retina-logo" data-dark-logo="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/toastmasters-international-logo-landscape.png"><img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/toastmasters-international-logo-landscape.png" className="mb-0" alt="Toastmasters International Logo" /></a>
+              </div>
+              {/* <!-- #logo end --> */}
+
+              {/* <!-- Primary Navigation
+              ============================================= --> */}
+              <nav id="primary-menu" className="dark">
+                <ul>                  
+                  <li className="current"><Link to="index.html"><div>Home</div></Link></li>
+                  <li><Link to="index.html"><div>About</div></Link></li>
+                  <li><Link to="/members/"><div>Members</div></Link></li>
+                  <li><Link to="index.html"><div>Contact Us</div></Link></li>
+                  <a href="index.html" className="button button-3d button-rounded button-blue" style={{ margin: `30px 5px` }}><i className="icon-line2-login"></i>Login</a>
+                </ul>
+
+                {/* <!-- Top Search
+                ============================================= --> */}
+                <div id="top-search">
+                  <a href="index.html" id="top-search-trigger"><i className="icon-search3"></i><i className="icon-line-cross"></i></a>
+                  <form action="search.html" method="get">
+                    <input type="text" name="q" className="form-control" placeholder="Type &amp; Hit Enter.." />
+                  </form>
+                </div>
+                {/* <!-- #top-search end --> */}
+
+              </nav>
+              {/* <!-- #primary-menu end --> */}
+
+            </div>
+
+          </div>
+
+        </header>
+        {/* <!-- #header end --> */}
 
         <main>{children}</main>
 
@@ -88,8 +133,8 @@ const Layout = ({ children }) => {
                 <div className="col_one_third">
                   <div className="widget clearfix">
                     <img
-                      src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/footer-widget-logo.png"
-                      alt=""
+                      src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/toastmasters-international-logo-landscape-footer.png"
+                      alt="Toastmasters International Footer Logo"
                       className="footer-logo"
                     />
 
@@ -421,20 +466,22 @@ const Layout = ({ children }) => {
           </div>
           {/* <!-- #copyrights end --> */}
         </footer>
-      </div>
 
-      {/* <!-- Go To Top
-      ============================================= --> */}
-      <div id="gotoTop" className="icon-angle-up"></div>
+      
+        {/* <!-- Go To Top
+        ============================================= --> */}
+        <div id="gotoTop" className="icon-angle-up"></div>
 
-      {/* <!-- External JavaScripts
-      ============================================= --> */}
-      <script src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/js/jquery.js"></script>
-      <script src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/js/plugins.js"></script>
+      <Helmet>
+        {/* <!-- External JavaScripts
+        ============================================= --> */}
+        <script src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/js/jquery.js"></script>
+        <script src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/js/plugins.js"></script>
 
-      {/* <!-- Footer Scripts
-      ============================================= --> */}
-      <script src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/js/functions.js"></script>
+        {/* <!-- Footer Scripts
+        ============================================= --> */}
+        <script src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/js/functions.js"></script>
+      </Helmet>
     </>
   )
 }
