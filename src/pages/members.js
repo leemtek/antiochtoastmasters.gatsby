@@ -8,7 +8,7 @@ import '../components/layout.css';
 
 const Wrapper = styled.div`
     text-align:center;
-    padding-bottom:30px;
+    padding-bottom:40px;
 `
 const SecTitle = styled.div`
     text-align:left;
@@ -35,20 +35,21 @@ const H4 = styled.h4`
 `
 
 
+
 const Members = () => (
     <Layout>
         <SEO title="Members" />
         <Container>
             <Wrapper>
                 <SecTitle>
-                    <div className="row">
-                        <div className="col-5" style={{ marginTop: '10px', padding: '0px' }}>
+                    <div className="row" style={{ paddingTop: '40px' }}>
+                        <div className="col-4" style={{ marginTop: '10px', padding: '0px' }}>
                             <hr style={{ backgroundColor: '#e5e5e5' }} />
                         </div>
-                        <div className="col-2" style={{ textAlign: 'center', padding: '0px' }}>
-                            <H4>Meet The Team</H4>
+                        <div className="col-4" style={{ textAlign: 'center', padding: '0px' }}>
+                            <h1>Meet The Team</h1>
                         </div>
-                        <div className="col-5" style={{ marginTop: '10px', padding: '0px' }}>
+                        <div className="col-4" style={{ marginTop: '10px', padding: '0px' }}>
                             <hr style={{ backgroundColor: '#e5e5e5' }} />
                         </div>
                     </div>
