@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Crete+Round:400,400i|Raleway:600&display=swap');
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -615,6 +617,7 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
