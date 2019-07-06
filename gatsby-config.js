@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Toastmasters Creating Communicators`,
+    description: `We are a Toastmasters club located in Antioch, CA,  focusing on helping members improve their public speaking and leadership skills. We meet every Tuesday from 7:10 pm to 8:15pm.`,
     author: `@gatsbyjs`,
   },
   plugins: [
@@ -27,6 +27,7 @@ module.exports = {
         icon: `src/images/toastmasters-international-icon.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-styled-components`
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

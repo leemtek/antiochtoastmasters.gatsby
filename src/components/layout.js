@@ -68,7 +68,6 @@ const Layout = ({ children }) => {
           href="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/css/magnific-popup.css"
           type="text/css"
         />
-
         <link
           rel="stylesheet"
           href="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/css/responsive.css"
@@ -100,11 +99,11 @@ const Layout = ({ children }) => {
               ============================================= --> */}
               <nav id="primary-menu" className="dark">
                 <ul>                  
-                  <li className="current"><Link to="index.html"><div>Home</div></Link></li>
-                  <li><Link to="index.html"><div>About</div></Link></li>
+                  <li><Link to="/"><div>Home</div></Link></li>
+                  <li><Link to="/about/"><div>About</div></Link></li>
                   <li><Link to="/members/"><div>Members</div></Link></li>
-                  <li><Link to="index.html"><div>Contact Us</div></Link></li>
-                  <a href="index.html" className="button button-3d button-rounded button-blue" style={{ margin: `30px 5px` }}><i className="icon-line2-login"></i>Login</a>
+                  <li><Link to="/contact-us/"><div>Contact Us</div></Link></li>
+                  <a href="https://684665.toastmastersclubs.org/" className="button button-3d button-rounded button-blue" style={{ margin: `30px 5px` }}><i className="icon-line2-login"></i>Login</a>
                 </ul>
 
                 {/* <!-- Top Search
