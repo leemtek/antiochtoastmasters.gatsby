@@ -1,14 +1,20 @@
 import React from "react"
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-const IndexPage = () => (
+const Members = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Members" />
     
+
+
+      Jeremy's Stuffs here
+
+
+
+
   </Layout>
 )
 
-export default IndexPage
+export default Members
