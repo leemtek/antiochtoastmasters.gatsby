@@ -8,11 +8,18 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Header from "./header"
+import styled from "styled-components"
+import { Container, Row } from "reactstrap"
 
 import "./layout.css"
 
 import { Link, useStaticQuery, graphql } from "gatsby"
 import { Helmet } from "react-helmet"
+
+const Wrapper = styled.div`
+  padding-top: 80px;
+  padding-bottom: 80px;
+`
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -125,8 +132,16 @@ const Layout = ({ children }) => {
 
         </header>
         {/* <!-- #header end --> */}
-
-        <main>{children}</main>
+        
+        <main>
+          <Wrapper>
+            <Container>
+              <Row>
+                {children}
+              </Row>
+            </Container>
+          </Wrapper>
+        </main>        
 
         <footer id="footer" className="dark">
           <div className="container">
