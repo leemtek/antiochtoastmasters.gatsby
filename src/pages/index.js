@@ -15,7 +15,7 @@ const IndexPage = () => (
 <div className="slider-parallax-inner">
 <div className="swiper-container swiper-parent">
 <div className="swiper-wrapper">
-<div className="swiper-slide dark" style={{backgroundImage: `url(https://homepages.cae.wisc.edu/~ece533/images/monarch.png)`}}>
+<div className="swiper-slide dark" style={{backgroundImage: `url(http://themes.semicolonweb.com/html/canvas/images/slider/swiper/1.jpg)`}}>
 <div className="container clearfix">
 <div className="slider-caption slider-caption-center">
 <h2 data-animate="fadeInUp">Welcome to ToastMasters</h2>
@@ -24,7 +24,7 @@ const IndexPage = () => (
 </div>
 </div>
 
-<div className="swiper-slide dark" style={{backgroundImage: `url(https://homepages.cae.wisc.edu/~ece533/images/monarch.png)`}}>
+<div className="swiper-slide dark" style={{backgroundImage: `url(http://themes.semicolonweb.com/html/canvas/images/slider/swiper/2.jpg)`}}>
 <div className="container clearfix">
 <div className="slider-caption slider-caption-center">
 <h2 data-animate="fadeInUp">Great Performance</h2>
@@ -34,10 +34,10 @@ const IndexPage = () => (
 </div>
 
 
-<div className="swiper-slide dark" style={{backgroundImage: `url(https://homepages.cae.wisc.edu/~ece533/images/monarch.png)`}}>
+<div className="swiper-slide " style={{backgroundImage: `url(http://themes.semicolonweb.com/html/canvas/images/slider/swiper/3.jpg)`}}>
 <div className="container clearfix">
-<div className="slider-caption slider-caption-center">
-<h2 data-animate="fadeInUp">Great Performance</h2>
+<div className="slider-caption ">
+<h2 data-animate="fadeInUp">Great Speaches</h2>
 <p className="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">You'll be surprised to see the Final Results of your Creation &amp; would crave for more.</p>
 </div>
 </div>
@@ -54,7 +54,7 @@ const IndexPage = () => (
 <div className="container clearfix">
 <div className="heading-block  center">
 <h3>We are <span>ToastMasters</span></h3>
-<span className="divcenter">More than just a speach lesson</span>
+<span className="divcenter">More than just a speach</span>
 </div>
 <div className="col_one_third nobottommargin">
 <div className="feature-box media-box">
