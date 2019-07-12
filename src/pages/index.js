@@ -50,11 +50,50 @@ const IndexPage = () => (
 </div>
 </section>
 
-<div class="section">
-<div class="container clearfix">
-<div class="heading-block topmargin-sm center">
+<div className="section">
+<div className="container clearfix">
+<div className="col_one_third nobottommargin">
+<div className="feature-box media-box">
+<div className="fbox-media">
+<img src="http://themes.semicolonweb.com/html/canvas/images/services/1.jpg" alt="Why choose Us?" />
+</div>
+<div className="fbox-desc">
+<h3>Why choose Us.<span className="subtitle">Because we are Reliable.</span></h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia.</p>
+</div>
+</div>
+</div>
+<div className="col_one_third nobottommargin">
+<div className="feature-box media-box">
+<div className="fbox-media">
+<img src="http://themes.semicolonweb.com/html/canvas/images/services/2.jpg" alt="Why choose Us?" />
+</div>
+<div className="fbox-desc">
+<h3>Our Mission.<span className="subtitle">To Redefine your Brand.</span></h3>
+<p>Quos, non, esse eligendi ab accusantium voluptatem. Maxime eligendi beatae, atque tempora ullam. Vitae delectus quia, consequuntur rerum molestias quo.</p>
+</div>
+</div>
+</div>
+<div className="col_one_third nobottommargin col_last">
+<div className="feature-box media-box">
+<div className="fbox-media">
+<img src="http://themes.semicolonweb.com/html/canvas/images/services/3.jpg" alt="Why choose Us?" />
+</div>
+<div className="fbox-desc">
+<h3>What we Do.<span className="subtitle">Make our Customers Happy.</span></h3>
+<p>Porro repellat vero sapiente amet vitae quibusdam necessitatibus consectetur, labore totam. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.</p>
+</div>
+</div>
+</div>
+<div className="clear"></div>
+</div>
+</div>
+
+<div className="section" style={{marginTop:'-100px'}}>
+<div className="container clearfix">
+<div className="heading-block topmargin-sm center">
 <h3>Our Team</h3>
-<span class="divcenter">People who have contributed enormously to our Company</span>
+<span className="divcenter">People who have contributed enormously to our Company</span>
 </div>
 <div className="row">
 <div className="col-lg-6 bottommargin">
