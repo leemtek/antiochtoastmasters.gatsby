@@ -18,7 +18,7 @@ const IndexPage = () => (
 <div className="swiper-slide dark" style={{backgroundImage: `url(https://homepages.cae.wisc.edu/~ece533/images/monarch.png)`}}>
 <div className="container clearfix">
 <div className="slider-caption slider-caption-center">
-<h2 data-animate="fadeInUp">Welcome to Canvas</h2>
+<h2 data-animate="fadeInUp">Welcome to ToastMasters</h2>
 <p className="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Create just what you need for your Perfect Website. Choose from a wide range of Elements &amp; simply put them on your own Canvas.</p>
 </div>
 </div>
@@ -52,6 +52,10 @@ const IndexPage = () => (
 
 <div className="section">
 <div className="container clearfix">
+<div className="heading-block  center">
+<h3>We are <span>ToastMasters</span></h3>
+<span className="divcenter">More than just a speach lesson</span>
+</div>
 <div className="col_one_third nobottommargin">
 <div className="feature-box media-box">
 <div className="fbox-media">
