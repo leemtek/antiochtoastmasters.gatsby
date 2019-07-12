@@ -10,7 +10,8 @@ const IndexPage = () => (
   
 
 
-<section id="slider" className="slider-element slider-parallax swiper_wrapper full-screen clearfix">
+<section id="slider" className="slider-element slider-parallax swiper_wrapper full-screen clearfix" data-loop="true">
+
 <div className="slider-parallax-inner">
 <div className="swiper-container swiper-parent">
 <div className="swiper-wrapper">
@@ -22,23 +23,19 @@ const IndexPage = () => (
 </div>
 </div>
 </div>
-<div className="swiper-slide dark">
+
+<div className="swiper-slide dark" style={{backgroundImage: `url(https://homepages.cae.wisc.edu/~ece533/images/monarch.png)`}}>
 <div className="container clearfix">
 <div className="slider-caption slider-caption-center">
 <h2 data-animate="fadeInUp">Beautifully Flexible</h2>
 <p className="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Looks beautiful &amp; ultra-sharp on Retina Screen Displays. Powerful Layout with Responsive functionality that can be adapted to any screen size.</p>
 </div>
 </div>
-<video id="slide-video" poster="images/videos/deskwork.jpg" preload="auto" loop autoplay muted>
-<source src='http://themes.semicolonweb.com/html/canvas/images/videos/deskwork.webm' type='video/webm' />
-<source src='http://themes.semicolonweb.com/html/canvas/images/videos/deskwork.mp4' type='video/mp4' />
-</video>
-<div className="video-overlay" style={{backgroundColor: `rgba(0,0,0,0.55)`}}></div>
-
 </div>
-<div className="swiper-slide" style={{backgroundImage: `url(https://homepages.cae.wisc.edu/~ece533/images/monarch.png)`}}>
+
+<div className="swiper-slide dark" style={{backgroundImage: `url(https://homepages.cae.wisc.edu/~ece533/images/monarch.png)`}}>
 <div className="container clearfix">
-<div className="slider-caption">
+<div className="slider-caption slider-caption-center">
 <h2 data-animate="fadeInUp">Great Performance</h2>
 <p className="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">You'll be surprised to see the Final Results of your Creation &amp; would crave for more.</p>
 </div>
