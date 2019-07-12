@@ -83,7 +83,7 @@ const Layout = ({ children }) => {
         ============================================= --> */}
       <header
         id="header"
-        className="transparent-header full-header"
+        className=" full-header"
         data-sticky-class="not-dark"
       >
         <div id="header-wrap">

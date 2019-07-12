@@ -27,11 +27,12 @@ const IndexPage = () => (
 <div className="swiper-slide dark" style={{backgroundImage: `url(https://homepages.cae.wisc.edu/~ece533/images/monarch.png)`}}>
 <div className="container clearfix">
 <div className="slider-caption slider-caption-center">
-<h2 data-animate="fadeInUp">Beautifully Flexible</h2>
-<p className="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Looks beautiful &amp; ultra-sharp on Retina Screen Displays. Powerful Layout with Responsive functionality that can be adapted to any screen size.</p>
+<h2 data-animate="fadeInUp">Great Performance</h2>
+<p className="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">You'll be surprised to see the Final Results of your Creation &amp; would crave for more.</p>
 </div>
 </div>
 </div>
+
 
 <div className="swiper-slide dark" style={{backgroundImage: `url(https://homepages.cae.wisc.edu/~ece533/images/monarch.png)`}}>
 <div className="container clearfix">
