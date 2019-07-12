@@ -165,6 +165,13 @@ const IndexPage = () => (
 </div>
 
 
+<div className="promo promo-light" style={{marginTop:'-100px'}}>
+<div style={{width:'75%',  marginLeft:'10%'}}>
+<h3>Call us today at <span>+91.22.57412541</span> or Email us at <span><a href="/cdn-cgi/l/email-protection" className="__cf_email__" dataCfemail="62111712120d10162201030c1403114c010d0f">test@test.com</a></span></h3>
+<span>We strive to provide Our Customers with Top Notch Support to make their Theme Experience Wonderful</span>
+<a style={{marginRight:'10%'}} href="#" className="button button-xlarge button-rounded">Start Browsing</a>
+</div>
+</div>
 
 
 
