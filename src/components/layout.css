@@ -629,3 +629,8 @@ pre tt:after {
                                                    Global Styles
 
 ------------------------------------------------------------- */
+#header.full-header #primary-menu > ul {
+  padding-right: 0;
+  margin-right: 0;
+  border-right: 0;
+}
