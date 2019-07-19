@@ -103,7 +103,7 @@ const Layout = ({ children }) => {
                   <li className="current"><Link to="index.html"><div>Home</div></Link></li>
                   <li><Link to="index.html"><div>About</div></Link></li>
                   <li><Link to="/members/"><div>Members</div></Link></li>
-                  <li><Link to="index.html"><div>Contact Us</div></Link></li>
+                  <li><Link to="/contact/"><div>Contact Us</div></Link></li>
                   <a href="index.html" className="button button-3d button-rounded button-blue" style={{ margin: `30px 5px` }}><i className="icon-line2-login"></i>Login</a>
                 </ul>
 
