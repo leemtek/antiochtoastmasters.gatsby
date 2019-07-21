@@ -12,7 +12,6 @@ const IndexPage = () => (
     <section
       id="slider"
       className="slider-element slider-parallax swiper_wrapper full-screen clearfix"
-      data-loop="true"
     >
       {/* <!-- First Slider Pic
       ============================================= --> */}
