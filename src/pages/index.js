@@ -25,7 +25,7 @@ const IndexPage = () => (
             <div
               className="swiper-slide dark"
               style={{
-                backgroundImage: `url(http://themes.semicolonweb.com/html/canvas/images/slider/swiper/1.jpg)`,
+                backgroundImage: `url(https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/slider/swiper/1.jpg)`,
               }}
             >
               <div className="container clearfix">
@@ -50,7 +50,7 @@ const IndexPage = () => (
             <div
               className="swiper-slide dark"
               style={{
-                backgroundImage: `url(http://themes.semicolonweb.com/html/canvas/images/slider/swiper/2.jpg)`,
+                backgroundImage: `url(https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/slider/swiper/2.jpg)`,
               }}
             >
               <div className="container clearfix">
@@ -74,7 +74,7 @@ const IndexPage = () => (
             <div
               className="swiper-slide "
               style={{
-                backgroundImage: `url(http://themes.semicolonweb.com/html/canvas/images/slider/swiper/3.jpg)`,
+                backgroundImage: `url(https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/slider/swiper/3.jpg)`,
               }}
             >
               <div className="container clearfix">
@@ -129,7 +129,7 @@ const IndexPage = () => (
           <div className="feature-box media-box">
             <div className="fbox-media">
               <img
-                src="http://themes.semicolonweb.com/html/canvas/images/services/1.jpg"
+                src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/services/1.jpg"
                 alt="Why choose Us?"
               />
             </div>
@@ -154,7 +154,7 @@ const IndexPage = () => (
           <div className="feature-box media-box">
             <div className="fbox-media">
               <img
-                src="http://themes.semicolonweb.com/html/canvas/images/services/2.jpg"
+                src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/services/2.jpg"
                 alt="Why choose Us?"
               />
             </div>
@@ -179,7 +179,7 @@ const IndexPage = () => (
           <div className="feature-box media-box">
             <div className="fbox-media">
               <img
-                src="http://themes.semicolonweb.com/html/canvas/images/services/3.jpg"
+                src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/services/3.jpg"
                 alt="Why choose Us?"
               />
             </div>
@@ -220,7 +220,7 @@ const IndexPage = () => (
             <div className="team team-list clearfix">
               <div className="team-image">
                 <img
-                  src="http://themes.semicolonweb.com/html/canvas/images/team/3.jpg"
+                  src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/3.jpg"
                   alt="John Doe"
                 />
               </div>
@@ -273,7 +273,7 @@ const IndexPage = () => (
             <div className="team team-list clearfix">
               <div className="team-image">
                 <img
-                  src="http://themes.semicolonweb.com/html/canvas/images/team/2.jpg"
+                  src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/2.jpg"
                   alt="Nix Maxwell"
                 />
               </div>
@@ -326,7 +326,7 @@ const IndexPage = () => (
 
               <div className="team-image">
                 <img
-                  src="http://themes.semicolonweb.com/html/canvas/images/team/4.jpg"
+                  src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/4.jpg"
                   alt="John Doe"
                 />
               </div>
@@ -374,7 +374,7 @@ const IndexPage = () => (
 
               <div className="team-image">
                 <img
-                  src="http://themes.semicolonweb.com/html/canvas/images/team/8.jpg"
+                  src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/8.jpg"
                   alt="Nix Maxwell"
                 />
               </div>
@@ -429,7 +429,7 @@ const IndexPage = () => (
             <a
               href="/cdn-cgi/l/email-protection"
               className="__cf_email__"
-              dataCfemail="62111712120d10162201030c1403114c010d0f"
+              datacfemail="62111712120d10162201030c1403114c010d0f"
             >
               test@test.com
             </a>

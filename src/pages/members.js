@@ -3,19 +3,19 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import { Link } from "gatsby"
 import { Col, Container, Row } from "reactstrap"
 
 const Members = () => (
   <Layout>
     <SEO title="Members" />
+
     <section id="page-title">
       <div className="container clearfix">
         <h1>Members</h1>
         <span>List of People who matter in Our Company</span>
         <ol className="breadcrumb">
           <li className="breadcrumb-item">
-            <Link to="/">Home</Link>
+            <a href="/">Home</a>
           </li>
           <li className="breadcrumb-item active" aria-current="page">
             Members
@@ -23,6 +23,7 @@ const Members = () => (
         </ol>
       </div>
     </section>
+
     <div className="content-wrap">
       <Container>
         <Row>
