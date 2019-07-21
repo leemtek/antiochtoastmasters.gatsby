@@ -6,13 +6,6 @@ import styled from "styled-components"
 import { Container } from "reactstrap"
 import "../components/layout.css"
 
-const Wrapper = styled.div`
-  text-align: left;
-  min-height: 400px;
-  padding-top: 40px;
-  padding-botttom: 40px;
-`
-
 const H3 = styled.h3`
   margin-bottom: 40px;
   font-size: 19px;
@@ -50,49 +43,49 @@ const Contact = () => (
       </div>
     </section>
 
+    <div className="content-wrap">
     <Container>
-      <Wrapper>
         <H3>Send us an Email</H3>
         <br />
         <form className="col-xl-9" style={{ display: "inline-block" }}>
-          <div class="row">
-            <div class="form-group col-xl-4">
-              <label for="formGroupExampleInput">Your Name:</label>
+          <div className="row">
+            <div className="form-group col-xl-4">
+              <label htmlFor="formGroupExampleInput">Your Name:</label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="formGroupExampleInput"
               />
             </div>
-            <div class="form-group col-xl-4">
-              <label for="formGroupExampleInput2">Email:</label>
+            <div className="form-group col-xl-4">
+              <label htmlFor="formGroupExampleInput2">Email:</label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="formGroupExampleInput2"
               />
             </div>
-            <div class="form-group col-xl-4">
-              <label for="formGroupExampleInput2">Phone Number:</label>
+            <div className="form-group col-xl-4">
+              <label htmlFor="formGroupExampleInput2">Phone Number:</label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="formGroupExampleInput2"
               />
             </div>
           </div>
 
-          <div class="row">
-            <div class="form-group col-12">
-              <label for="exampleFormControlTextarea1">Your Message:</label>
+          <div className="row">
+            <div className="form-group col-12">
+              <label htmlFor="exampleFormControlTextarea1">Your Message:</label>
               <textarea
-                class="form-control"
+                className="form-control"
                 id="exampleFormControlTextarea1"
                 rows="3"
               ></textarea>
             </div>
           </div>
-          <button type="button" class="btn btn-primary">
+          <button type="button" className="btn btn-primary">
             Send Message
           </button>
         </form>
@@ -160,8 +153,8 @@ const Contact = () => (
             </a>
           </div>
         </div>
-      </Wrapper>
     </Container>
+    </div>
   </Layout>
 )
 

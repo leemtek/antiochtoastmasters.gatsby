@@ -76,7 +76,7 @@ const About = () => (
             <i className="i-plain i-xlarge divcenter nobottommargin icon-users"></i>
             <div
               className="counter counter-large"
-              style={{ color: `#3498db;` }}
+              style={{ color: `#3498db` }}
             >
               <span
                 data-from="100"
@@ -95,7 +95,7 @@ const About = () => (
             <i className="i-plain i-xlarge divcenter nobottommargin icon-code"></i>
             <div
               className="counter counter-large"
-              style={{ color: `#e74c3c;` }}
+              style={{ color: `#e74c3c` }}
             >
               <span
                 data-from="100"
@@ -114,7 +114,7 @@ const About = () => (
             <i className="i-plain i-xlarge divcenter nobottommargin icon-briefcase"></i>
             <div
               className="counter counter-large"
-              style={{ color: `#16a085;` }}
+              style={{ color: `#16a085` }}
             >
               <span
                 data-from="100"
@@ -133,7 +133,7 @@ const About = () => (
             <i className="i-plain i-xlarge divcenter nobottommargin icon-cup"></i>
             <div
               className="counter counter-large"
-              style={{ color: `#9b59b6;` }}
+              style={{ color: `#9b59b6` }}
             >
               <span
                 data-from="100"
