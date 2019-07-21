@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import Header from "./header"
 
 import "./layout.css"
+import "bootstrap/dist/css/bootstrap.min.css"
 
 import { Link, useStaticQuery, graphql } from "gatsby"
 import { Helmet } from "react-helmet"

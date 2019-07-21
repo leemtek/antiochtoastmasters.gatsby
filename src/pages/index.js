@@ -2,8 +2,6 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import "bootstrap/dist/css/bootstrap.min.css"
-
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -72,7 +70,7 @@ const IndexPage = () => (
         ============================================= --> */}
 
             <div
-              className="swiper-slide "
+              className="swiper-slide"
               style={{
                 backgroundImage: `url(https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/slider/swiper/3.jpg)`,
               }}
@@ -115,7 +113,7 @@ const IndexPage = () => (
 
     <div className="section">
       <div className="container clearfix">
-        <div className="heading-block  center">
+        <div className="heading-block center">
           <h3>
             We are <span>ToastMasters</span>
           </h3>
