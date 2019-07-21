@@ -11,7 +11,7 @@ import Header from "./header"
 
 import "./layout.css"
 
-import { Link, useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import { Helmet } from "react-helmet"
 
 
@@ -125,24 +125,24 @@ const Layout = ({ children }) => {
             <nav id="primary-menu" className="dark">
               <ul>
                 <li>
-                  <Link to="/">
+                  <a href="/">
                     <div>Home</div>
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="/about/">
+                  <a href="/about/">
                     <div>About</div>
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="/members/">
+                  <a href="/members/">
                     <div>Members</div>
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="/contact-us/">
+                  <a href="/contact-us/">
                     <div>Contact Us</div>
-                  </Link>
+                  </a>
                 </li>
                 <li>
                     <a
