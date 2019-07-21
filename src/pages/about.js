@@ -14,8 +14,8 @@ const About = () => (
         <h1>About Us</h1>
         <span>Everything you need to know about our Company</span>
         <ol className="breadcrumb">
-          <li className="breadcrumb-item"><a href="#">Home</a></li>
-          <li className="breadcrumb-item"><a href="#">Pages</a></li>
+          <li className="breadcrumb-item"><a href="/">Home</a></li>
+          <li className="breadcrumb-item"><a href="/">Pages</a></li>
           <li className="breadcrumb-item active" aria-current="page">About Us</li>
         </ol>
       </div>
@@ -32,10 +32,10 @@ const About = () => (
             <div className="fslider" data-pagi="false" data-animation="fade">
               <div className="flexslider">
                 <div className="slider-wrap">
-                  <div className="slide"><a href="#"><img src="images/about/4.jpg" alt="About Image" /></a></div>
-                    <div className="slide"><a href="#"><img src="images/about/5.jpg" alt="About Image" /></a></div>
-                      <div className="slide"><a href="#"><img src="images/about/6.jpg" alt="About Image" /></a></div>
-                        <div className="slide"><a href="#"><img src="images/about/7.jpg" alt="About Image" /></a></div>
+                  <div className="slide"><a href="/"><img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/about/4.jpg" alt="About 1234" /></a></div>
+                    <div className="slide"><a href="/"><img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/about/5.jpg" alt="About 1234" /></a></div>
+                      <div className="slide"><a href="/"><img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/about/6.jpg" alt="About 1234" /></a></div>
+                        <div className="slide"><a href="/"><img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/about/7.jpg" alt="About 1234" /></a></div>
                         </div>
                       </div>
                     </div>
@@ -64,7 +64,7 @@ const About = () => (
                   <div className="promo promo-light bottommargin">
                     <h3>Call us today at <span>+91.22.57412541</span> or Email us at <span><a href="/cdn-cgi/l/email-protection" className="__cf_email__" data-cfemail="4c3f393c3c233e380c2f2d223a2d3f622f2321">[email&#160;protected]</a></span></h3>
                     <span>We strive to provide Our Customers with Top Notch Support to make their Theme Experience Wonderful</span>
-                    <a href="#" className="button button-xlarge button-rounded">Start Browsing</a>
+                    <a href="/" className="button button-xlarge button-rounded">Start Browsing</a>
                   </div>
                   <div className="heading-block center">
                     <h2>Canvas Thinktank</h2>
@@ -74,22 +74,22 @@ const About = () => (
                     <div className="col-lg-6 bottommargin">
                       <div className="team team-list clearfix">
                         <div className="team-image">
-                          <img src="images/team/3.jpg" alt="John Doe" />
+                          <img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/3.jpg" alt="John Doe" />
 </div>
                           <div className="team-desc">
                             <div className="team-title"><h4>John Doe</h4><span>CEO</span></div>
                             <div className="team-content">
                               <p>Carbon emissions reductions giving, legitimize amplify non-partisan Aga Khan. Policy dialogue assessment expert free-speech cornerstone disruptor freedom. Cesar Chavez empower.</p>
                             </div>
-                            <a href="#" className="social-icon si-rounded si-small si-light si-facebook">
+                            <a href="/" className="social-icon si-rounded si-small si-light si-facebook">
                               <i className="icon-facebook"></i>
                               <i className="icon-facebook"></i>
                             </a>
-                            <a href="#" className="social-icon si-rounded si-small si-light si-twitter">
+                            <a href="/" className="social-icon si-rounded si-small si-light si-twitter">
                               <i className="icon-twitter"></i>
                               <i className="icon-twitter"></i>
                             </a>
-                            <a href="#" className="social-icon si-rounded si-small si-light si-gplus">
+                            <a href="/" className="social-icon si-rounded si-small si-light si-gplus">
                               <i className="icon-gplus"></i>
                               <i className="icon-gplus"></i>
                             </a>
@@ -99,22 +99,22 @@ const About = () => (
                       <div className="col-lg-6 bottommargin">
                         <div className="team team-list clearfix">
                           <div className="team-image">
-                            <img src="images/team/2.jpg" alt="Josh Clark" />
+                            <img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/2.jpg" alt="Josh Clark" />
 </div>
                             <div className="team-desc">
                               <div className="team-title"><h4>Josh Clark</h4><span>Co-Founder</span></div>
                               <div className="team-content">
                                 <p>Carbon emissions reductions giving, legitimize amplify non-partisan Aga Khan. Policy dialogue assessment expert free-speech cornerstone disruptor freedom. Cesar Chavez empower.</p>
                               </div>
-                              <a href="#" className="social-icon si-rounded si-small si-light si-facebook">
+                              <a href="/" className="social-icon si-rounded si-small si-light si-facebook">
                                 <i className="icon-facebook"></i>
                                 <i className="icon-facebook"></i>
                               </a>
-                              <a href="#" className="social-icon si-rounded si-small si-light si-twitter">
+                              <a href="/" className="social-icon si-rounded si-small si-light si-twitter">
                                 <i className="icon-twitter"></i>
                                 <i className="icon-twitter"></i>
                               </a>
-                              <a href="#" className="social-icon si-rounded si-small si-light si-gplus">
+                              <a href="/" className="social-icon si-rounded si-small si-light si-gplus">
                                 <i className="icon-gplus"></i>
                                 <i className="icon-gplus"></i>
                               </a>
@@ -124,22 +124,22 @@ const About = () => (
                         <div className="col-lg-6 bottommargin">
                           <div className="team team-list clearfix">
                             <div className="team-image">
-                              <img src="images/team/8.jpg" alt="Mary Jane" />
+                              <img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/8.jpg" alt="Mary Jane" />
 </div>
                               <div className="team-desc">
                                 <div className="team-title"><h4>Mary Jane</h4><span>Sales</span></div>
                                 <div className="team-content">
                                   <p>Carbon emissions reductions giving, legitimize amplify non-partisan Aga Khan. Policy dialogue assessment expert free-speech cornerstone disruptor freedom. Cesar Chavez empower.</p>
                                 </div>
-                                <a href="#" className="social-icon si-rounded si-small si-light si-facebook">
+                                <a href="/" className="social-icon si-rounded si-small si-light si-facebook">
                                   <i className="icon-facebook"></i>
                                   <i className="icon-facebook"></i>
                                 </a>
-                                <a href="#" className="social-icon si-rounded si-small si-light si-twitter">
+                                <a href="/" className="social-icon si-rounded si-small si-light si-twitter">
                                   <i className="icon-twitter"></i>
                                   <i className="icon-twitter"></i>
                                 </a>
-                                <a href="#" className="social-icon si-rounded si-small si-light si-gplus">
+                                <a href="/" className="social-icon si-rounded si-small si-light si-gplus">
                                   <i className="icon-gplus"></i>
                                   <i className="icon-gplus"></i>
                                 </a>
@@ -149,22 +149,22 @@ const About = () => (
                           <div className="col-lg-6 bottommargin">
                             <div className="team team-list clearfix">
                               <div className="team-image">
-                                <img src="images/team/4.jpg" alt="Nix Maxwell" />
+                                <img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/4.jpg" alt="Nix Maxwell" />
 </div>
                                 <div className="team-desc">
                                   <div className="team-title"><h4>Nix Maxwell</h4><span>Support</span></div>
                                   <div className="team-content">
                                     <p>Carbon emissions reductions giving, legitimize amplify non-partisan Aga Khan. Policy dialogue assessment expert free-speech cornerstone disruptor freedom. Cesar Chavez empower.</p>
                                   </div>
-                                  <a href="#" className="social-icon si-rounded si-small si-light si-facebook">
+                                  <a href="/" className="social-icon si-rounded si-small si-light si-facebook">
                                     <i className="icon-facebook"></i>
                                     <i className="icon-facebook"></i>
                                   </a>
-                                  <a href="#" className="social-icon si-rounded si-small si-light si-twitter">
+                                  <a href="/" className="social-icon si-rounded si-small si-light si-twitter">
                                     <i className="icon-twitter"></i>
                                     <i className="icon-twitter"></i>
                                   </a>
-                                  <a href="#" className="social-icon si-rounded si-small si-light si-gplus">
+                                  <a href="/" className="social-icon si-rounded si-small si-light si-gplus">
                                     <i className="icon-gplus"></i>
                                     <i className="icon-gplus"></i>
                                   </a>
@@ -180,7 +180,7 @@ const About = () => (
                               <div className="slider-wrap">
                                 <div className="slide">
                                   <div className="testi-image">
-                                    <a href="#"><img src="images/testimonials/3.jpg" alt="Customer Testimonails" /></a>
+                                    <a href="/"><img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/testimonials/3.jpg" alt="Customer Testimonails" /></a>
 </div>
                                     <div className="testi-content">
                                       <p>Similique fugit repellendus expedita excepturi iure perferendis provident quia eaque. Repellendus, vero numquam?</p>
@@ -192,7 +192,7 @@ const About = () => (
                                   </div>
                                   <div className="slide">
                                     <div className="testi-image">
-                                      <a href="#"><img src="images/testimonials/2.jpg" alt="Customer Testimonails" /></a>
+                                      <a href="/"><img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/testimonials/2.jpg" alt="Customer Testimonails" /></a>
 </div>
                                       <div className="testi-content">
                                         <p>Natus voluptatum enim quod necessitatibus quis expedita harum provident eos obcaecati id culpa corporis molestias.</p>
@@ -204,7 +204,7 @@ const About = () => (
                                     </div>
                                     <div className="slide">
                                       <div className="testi-image">
-                                        <a href="#"><img src="images/testimonials/1.jpg" alt="Customer Testimonails" /></a>
+                                        <a href="/"><img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/testimonials/1.jpg" alt="Customer Testimonails" /></a>
 </div>
                                         <div className="testi-content">
                                           <p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum!</p>
