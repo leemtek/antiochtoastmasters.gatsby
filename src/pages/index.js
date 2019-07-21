@@ -2,8 +2,6 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import "bootstrap/dist/css/bootstrap.min.css"
-
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -14,11 +12,9 @@ const IndexPage = () => (
     <section
       id="slider"
       className="slider-element slider-parallax swiper_wrapper full-screen clearfix"
-      data-loop="true"
     >
       {/* <!-- First Slider Pic
-        ============================================= --> */}
-
+      ============================================= --> */}
       <div className="slider-parallax-inner">
         <div className="swiper-container swiper-parent">
           <div className="swiper-wrapper">
@@ -45,8 +41,7 @@ const IndexPage = () => (
             </div>
 
             {/* <!-- Second Slider Pic
-        ============================================= --> */}
-
+            ============================================= --> */}
             <div
               className="swiper-slide dark"
               style={{
@@ -69,10 +64,9 @@ const IndexPage = () => (
             </div>
 
             {/* <!-- Third Slider Pic
-        ============================================= --> */}
-
+            ============================================= --> */}
             <div
-              className="swiper-slide "
+              className="swiper-slide"
               style={{
                 backgroundImage: `url(https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/slider/swiper/3.jpg)`,
               }}
@@ -111,11 +105,10 @@ const IndexPage = () => (
     </section>
 
     {/* <!-- Who we are Section
-        ============================================= --> */}
-
+    ============================================= --> */}
     <div className="section">
       <div className="container clearfix">
-        <div className="heading-block  center">
+        <div className="heading-block center">
           <h3>
             We are <span>ToastMasters</span>
           </h3>
@@ -124,7 +117,6 @@ const IndexPage = () => (
 
         {/* <!-- Who we are Box 1
         ============================================= --> */}
-
         <div className="col_one_third nobottommargin">
           <div className="feature-box media-box">
             <div className="fbox-media">
@@ -149,7 +141,6 @@ const IndexPage = () => (
 
         {/* <!-- Who we are Box 2
         ============================================= --> */}
-
         <div className="col_one_third nobottommargin">
           <div className="feature-box media-box">
             <div className="fbox-media">
@@ -174,7 +165,6 @@ const IndexPage = () => (
 
         {/* <!-- Who we are Box 3
         ============================================= --> */}
-
         <div className="col_one_third nobottommargin col_last">
           <div className="feature-box media-box">
             <div className="fbox-media">
@@ -201,8 +191,7 @@ const IndexPage = () => (
     </div>
 
     {/* <!-- Our Team Section
-        ============================================= --> */}
-
+    ============================================= --> */}
     <div className="section" style={{ marginTop: "-100px" }}>
       <div className="container clearfix">
         <div className="heading-block topmargin-sm center">
@@ -214,7 +203,6 @@ const IndexPage = () => (
 
         {/* <!-- Our Team Row 1
         ============================================= --> */}
-
         <div className="row">
           <div className="col-lg-6 bottommargin">
             <div className="team team-list clearfix">
@@ -226,8 +214,7 @@ const IndexPage = () => (
               </div>
 
               {/* <!-- Our Team Row 1 Left Pic
-        ============================================= --> */}
-
+              ============================================= --> */}
               <div className="team-desc">
                 <div className="team-title">
                   <h4>John Doe</h4>
@@ -267,8 +254,7 @@ const IndexPage = () => (
           </div>
 
           {/* <!-- Our Team Row 1 Right Pic
-        ============================================= --> */}
-
+          ============================================= --> */}
           <div className="col-lg-6 bottommargin">
             <div className="team team-list clearfix">
               <div className="team-image">
@@ -317,13 +303,11 @@ const IndexPage = () => (
 
         {/* <!-- Our Team Row 2
         ============================================= --> */}
-
         <div className="row">
           <div className="col-lg-6 bottommargin">
             <div className="team team-list clearfix">
               {/* <!-- Our Team Row 2 Left Pic
-        ============================================= --> */}
-
+              ============================================= --> */}
               <div className="team-image">
                 <img
                   src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/4.jpg"
@@ -370,8 +354,7 @@ const IndexPage = () => (
           <div className="col-lg-6 bottommargin">
             <div className="team team-list clearfix">
               {/* <!-- Our Team Row 2 Right Pic
-        ============================================= --> */}
-
+              ============================================= --> */}
               <div className="team-image">
                 <img
                   src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/8.jpg"
@@ -419,8 +402,7 @@ const IndexPage = () => (
     </div>
 
     {/* <!-- Contact Us Section
-        ============================================= --> */}
-
+    ============================================= --> */}
     <div className="promo promo-light" style={{ marginTop: "-100px" }}>
       <div style={{ width: "75%", marginLeft: "10%" }}>
         <h3>
@@ -450,8 +432,7 @@ const IndexPage = () => (
     </div>
 
     {/* <!-- Go to Top Button
-        ============================================= --> */}
-
+    ============================================= --> */}
     <div id="gotoTop" className="icon-angle-up"></div>
   </Layout>
 )

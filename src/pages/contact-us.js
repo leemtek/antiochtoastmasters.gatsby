@@ -1,10 +1,12 @@
 import React from "react"
+import styled from "styled-components"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import styled from "styled-components"
-import { Container } from "reactstrap"
+
 import "../components/layout.css"
+
+import { Container } from "reactstrap"
 
 const H3 = styled.h3`
   margin-bottom: 40px;
