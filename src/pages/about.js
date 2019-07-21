@@ -6,9 +6,7 @@ import SEO from "../components/seo"
 const About = () => (
   <Layout>
     <SEO title="About" />
-
-
-
+    
     <section id="page-title" className="page-title-mini">
       <div className="container clearfix">
         <h1>About Us</h1>

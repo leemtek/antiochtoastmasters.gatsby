@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Crete+Round:400,400i|Raleway:600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300&display=swap');
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -615,6 +617,7 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
@@ -626,3 +629,8 @@ pre tt:after {
                                                    Global Styles
 
 ------------------------------------------------------------- */
+#header.full-header #primary-menu > ul {
+  padding-right: 0;
+  margin-right: 0;
+  border-right: 0;
+}
