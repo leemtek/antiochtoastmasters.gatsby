@@ -36,7 +36,7 @@ const Members = () => (
             <div className="team">
               <div className="team-image">
                 <img
-                  src="http://themes.semicolonweb.com/html/canvas/images/team/3.jpg"
+                  src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/3.jpg"
                   alt="John Doe"
                   className="m-0"
                 />
@@ -54,7 +54,7 @@ const Members = () => (
             <div className="team">
               <div className="team-image">
                 <img
-                  src="http://themes.semicolonweb.com/html/canvas/images/team/2.jpg"
+                  src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/2.jpg"
                   alt="Josh Clark"
                   className="m-0"
                 />
@@ -72,7 +72,7 @@ const Members = () => (
             <div className="team">
               <div className="team-image">
                 <img
-                  src="http://themes.semicolonweb.com/html/canvas/images/team/8.jpg"
+                  src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/8.jpg"
                   alt="Mary Jane"
                   className="m-0"
                 />
@@ -90,7 +90,7 @@ const Members = () => (
             <div className="team">
               <div className="team-image">
                 <img
-                  src="http://themes.semicolonweb.com/html/canvas/images/team/4.jpg"
+                  src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/4.jpg"
                   alt="Nix Maxwell"
                   className="m-0"
                 />
@@ -108,7 +108,7 @@ const Members = () => (
             <div className="team">
               <div className="team-image">
                 <img
-                  src="http://themes.semicolonweb.com/html/canvas/images/team/3.jpg"
+                  src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/3.jpg"
                   alt="Nix Maxwell"
                   className="m-0"
                 />
@@ -126,7 +126,7 @@ const Members = () => (
             <div className="team">
               <div className="team-image">
                 <img
-                  src="http://themes.semicolonweb.com/html/canvas/images/team/2.jpg"
+                  src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/2.jpg"
                   alt="Nix Maxwell"
                   className="m-0"
                 />
@@ -144,7 +144,7 @@ const Members = () => (
             <div className="team">
               <div className="team-image">
                 <img
-                  src="http://themes.semicolonweb.com/html/canvas/images/team/8.jpg"
+                  src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/8.jpg"
                   alt="Nix Maxwell"
                   className="m-0"
                 />
@@ -162,7 +162,7 @@ const Members = () => (
             <div className="team">
               <div className="team-image">
                 <img
-                  src="http://themes.semicolonweb.com/html/canvas/images/team/4.jpg"
+                  src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/4.jpg"
                   alt="Nix Maxwell"
                   className="m-0"
                 />
