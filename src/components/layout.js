@@ -511,7 +511,7 @@ const Layout = ({ children }) => {
 
         {/* <!-- Footer Scripts
         ============================================= --> */}
-        <script src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/js/functions.js"></script>
+        <script src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/js/functions.js" defer></script>
       </Helmet>
     </>
   )
