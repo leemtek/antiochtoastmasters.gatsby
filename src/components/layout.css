@@ -630,7 +630,7 @@ pre tt:after {
 
 ------------------------------------------------------------- */
 #header.full-header #primary-menu > ul {
-  padding-right: 0;
-  margin-right: 0;
-  border-right: 0;
+  padding-right: 0 !important;
+  margin-right: 0 !important;
+  border-right: 0 !important;
 }

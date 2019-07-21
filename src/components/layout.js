@@ -14,8 +14,6 @@ import "./layout.css"
 import { useStaticQuery, graphql } from "gatsby"
 import { Helmet } from "react-helmet"
 
-
-
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -81,11 +79,7 @@ const Layout = ({ children }) => {
 
       {/* <!-- Header
         ============================================= --> */}
-      <header
-        id="header"
-        className=" full-header"
-        data-sticky-class="not-dark"
-      >
+      <header id="header" className=" full-header" data-sticky-class="not-dark">
         <div id="header-wrap">
           <div className="container clearfix">
             <div id="primary-menu-trigger">
@@ -96,7 +90,7 @@ const Layout = ({ children }) => {
               ============================================= --> */}
             <div id="logo">
               <a
-                href="index.html"
+                href="/"
                 className="standard-logo"
                 data-dark-logo="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/toastmasters-international-logo-landscape.png"
               >
@@ -107,7 +101,7 @@ const Layout = ({ children }) => {
                 />
               </a>
               <a
-                href="index.html"
+                href="/"
                 className="retina-logo"
                 data-dark-logo="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/toastmasters-international-logo-landscape.png"
               >
@@ -145,12 +139,11 @@ const Layout = ({ children }) => {
                   </a>
                 </li>
                 <li>
-                    <a
-                      href="https://684665.toastmastersclubs.org/"
-                    ><div>
+                  <a href="https://684665.toastmastersclubs.org/">
+                    <div>
                       <i className="icon-line2-login"></i>Login
-                      </div>
-                    </a>
+                    </div>
+                  </a>
                 </li>
               </ul>
             </nav>
@@ -163,55 +156,62 @@ const Layout = ({ children }) => {
       <main>{children}</main>
 
       <footer id="footer" className="dark">
-
         {/* <!-- Copyrights
           ============================================= --> */}
         <div id="copyrights">
           <div className="container clearfix">
             <div className="col_full center">
-              The information on this website is for the sole use of Toastmasters' members, for Toastmasters business only. It is not to be used for solicitation and distribution of non-Toastmasters material or information. All rights reserved. Toastmasters International, the Toastmasters International logo and all other Toastmasters International trademarks and copyrights are the sole property of Toastmasters International and may be used only by permission.
+              The information on this website is for the sole use of
+              Toastmasters' members, for Toastmasters business only. It is not
+              to be used for solicitation and distribution of non-Toastmasters
+              material or information. All rights reserved. Toastmasters
+              International, the Toastmasters International logo and all other
+              Toastmasters International trademarks and copyrights are the sole
+              property of Toastmasters International and may be used only by
+              permission.
               <br />
-              Site Hosting and Technical support provided by FreeToastHost, a free service of Toastmasters International.
-              <br />              
+              Site Hosting and Technical support provided by FreeToastHost, a
+              free service of Toastmasters International.
+              <br />
             </div>
             <div className="text-center">
-                <a
-                  href="https://www.facebook.com/toastmasterscreatingcommunicators"
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="social-icon si-small si-borderless si-facebook"
-                >
-                  <i className="icon-facebook"></i>
-                  <i className="icon-facebook"></i>
-                </a>
-                <a
-                  href="https://twitter.com/AntiochTM?lang=en"
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="social-icon si-small si-borderless si-twitter"
-                >
-                  <i className="icon-twitter"></i>
-                  <i className="icon-twitter"></i>
-                </a>
-                <a
-                  href="https://www.linkedin.com/company-beta/18068202"
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="social-icon si-small si-borderless si-linkedin"
-                >
-                  <i className="icon-linkedin"></i>
-                  <i className="icon-linkedin"></i>
-                </a>
-                <a
-                  href="https://www.meetup.com/Antioch-and-Pittsburg-CA-Public-Speakers-Meetup/"
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="social-icon si-small si-borderless si-smashmag"
-                >
-                  <i className="icon-meetup"></i>
-                  <i className="icon-meetup"></i>
-                </a>
-              </div>
+              <a
+                href="https://www.facebook.com/toastmasterscreatingcommunicators"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-icon si-small si-borderless si-facebook"
+              >
+                <i className="icon-facebook"></i>
+                <i className="icon-facebook"></i>
+              </a>
+              <a
+                href="https://twitter.com/AntiochTM?lang=en"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-icon si-small si-borderless si-twitter"
+              >
+                <i className="icon-twitter"></i>
+                <i className="icon-twitter"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/company-beta/18068202"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-icon si-small si-borderless si-linkedin"
+              >
+                <i className="icon-linkedin"></i>
+                <i className="icon-linkedin"></i>
+              </a>
+              <a
+                href="https://www.meetup.com/Antioch-and-Pittsburg-CA-Public-Speakers-Meetup/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-icon si-small si-borderless si-smashmag"
+              >
+                <i className="icon-meetup"></i>
+                <i className="icon-meetup"></i>
+              </a>
+            </div>
           </div>
         </div>
         {/* <!-- #copyrights end --> */}
