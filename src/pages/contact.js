@@ -107,15 +107,15 @@ const Contact = () => (
                     </div>
                     <div className="col-xl-12 col-lg-3 col-md-4 col-sm-4 col-12" style={{ display:'inline-block',verticalAlign:'top', marginBottom: '30px', padding:'0' }}>
 
-                        <a href="#" className="social-icon si-rounded si-small si-facebook">
+                        <a href="/" className="social-icon si-rounded si-small si-facebook">
                             <i className="icon-facebook"></i>
                             <i className="icon-facebook"></i>
                         </a>
-                        <a href="#" className="social-icon si-rounded si-small si-twitter">
+                        <a href="/" className="social-icon si-rounded si-small si-twitter">
                             <i className="icon-twitter"></i>
                             <i className="icon-twitter"></i>
                         </a>
-                        <a href="#" className="social-icon si-rounded si-small si-gplus">
+                        <a href="/" className="social-icon si-rounded si-small si-gplus">
                             <i className="icon-gplus"></i>
                             <i className="icon-gplus"></i>
                         </a>
