@@ -506,12 +506,31 @@ const Layout = ({ children }) => {
       <Helmet>
         {/* <!-- External JavaScripts
         ============================================= --> */}
-        <script src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/js/jquery.js"></script>
-        <script src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/js/plugins.js"></script>
+        <script>
+          {` 
+            //CDN URL
+            const CDNUrl = "https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/js/";
 
-        {/* <!-- Footer Scripts
-        ============================================= --> */}
-        <script src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/js/functions.js" defer></script>
+            //Lets create new script elements
+            const script_jquery = document.createElement("script");
+            const script_plugins = document.createElement("script");
+            const script_functions = document.createElement("script");
+
+            //Lets assign the file path to the script elements
+            script_jquery.src = CDNUrl + "jquery.js";
+            script_plugins.src = CDNUrl + "plugins.js";
+            script_functions.src = CDNUrl + "functions.js";
+
+            //lets defer plugins and functions...
+            script_plugins.defer = true;
+            script_functions.defer = true;
+
+            //Lets add our new script elements to the bottom of the head tag, in order
+            document.head.appendChild(script_jquery);
+            document.head.appendChild(script_plugins);
+            document.head.appendChild(script_functions);
+          `}
+        </script>
       </Helmet>
     </>
   )
