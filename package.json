@@ -36,7 +36,8 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "deploy": "clear; echo '-------\nBuilding Gatsby\n-------';gatsby build;echo '-------\nRemoving Old docs directory\n-------';rm -rf ./docs;echo '-------\nCreating New docs directory\n-------';cp -r ./public ./docs"
   },
   "repository": {
     "type": "git",
