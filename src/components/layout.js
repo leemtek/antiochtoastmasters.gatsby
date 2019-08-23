@@ -28,9 +28,6 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Helmet>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Helmet>
       <Header siteTitle={data.site.siteMetadata.title} />
 
       {/* <!-- Header
@@ -467,12 +464,12 @@ const Layout = ({ children }) => {
             const CDNUrl = "https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/js/";
 
             //Lets create new script elements
-            const script_jquery = document.createElement("script");
+            //const script_jquery = document.createElement("script");
             const script_plugins = document.createElement("script");
             const script_functions = document.createElement("script");
 
             //Lets assign the file path to the script elements
-            script_jquery.src = CDNUrl + "jquery.js";
+            //script_jquery.src = CDNUrl + "jquery.js";
             script_plugins.src = CDNUrl + "plugins.js";
             script_functions.src = CDNUrl + "functions.js";
 
@@ -481,7 +478,7 @@ const Layout = ({ children }) => {
             script_functions.defer = true;
 
             //Lets add our new script elements to the bottom of the head tag, in order
-            document.head.appendChild(script_jquery);
+            //document.head.appendChild(script_jquery);
             document.head.appendChild(script_plugins);
             document.head.appendChild(script_functions);
           `}
