@@ -29,51 +29,6 @@ const Layout = ({ children }) => {
   return (
     <>
       <Helmet>
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i"
-          type="text/css"
-        />
-        <link
-          rel="stylesheet"
-          href="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/style.css"
-          type="text/css"
-        />
-        <link
-          rel="stylesheet"
-          href="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/css/colors.css"
-          type="text/css"
-        />
-        <link
-          rel="stylesheet"
-          href="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/css/swiper.css"
-          type="text/css"
-        />
-        <link
-          rel="stylesheet"
-          href="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/css/dark.css"
-          type="text/css"
-        />
-        <link
-          rel="stylesheet"
-          href="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/css/font-icons.css"
-          type="text/css"
-        />
-        <link
-          rel="stylesheet"
-          href="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/css/animate.css"
-          type="text/css"
-        />
-        <link
-          rel="stylesheet"
-          href="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/css/magnific-popup.css"
-          type="text/css"
-        />
-        <link
-          rel="stylesheet"
-          href="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/css/responsive.css"
-          type="text/css"
-        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Helmet>
       <Header siteTitle={data.site.siteMetadata.title} />
