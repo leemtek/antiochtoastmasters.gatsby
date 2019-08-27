@@ -21,7 +21,7 @@ const IndexPage = () => (
             <div
               className="swiper-slide dark"
               style={{
-                backgroundImage: `url(https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/slider/swiper/1.jpg)`,
+                background: `linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/kaiser-antioch.jpg)`
               }}
             >
               <div className="container clearfix">
@@ -127,13 +127,13 @@ const IndexPage = () => (
             </div>
             <div className="fbox-desc">
               <h3>
-                Why choose Us.
-                <span className="subtitle">Because we are Reliable.</span>
+                We Believe.
+                <span className="subtitle">In the power of communication.</span>
               </h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Eligendi rem, facilis nobis voluptatum est voluptatem accusamus
-                molestiae eaque perspiciatis mollitia.
+                Creating Communicators is a club that enjoys the fine art of communication. Our members 
+                grow in a supportive relaxed atmosphere that allow them to thrive, advance and achieve 
+                their goals.
               </p>
             </div>
           </div>
@@ -151,13 +151,12 @@ const IndexPage = () => (
             </div>
             <div className="fbox-desc">
               <h3>
-                Our Mission.
-                <span className="subtitle">To Redefine your Brand.</span>
+                Transform Yourself.
+                <span className="subtitle">Participate in Toastmasters’ proven program.</span>
               </h3>
               <p>
-                Quos, non, esse eligendi ab accusantium voluptatem. Maxime
-                eligendi beatae, atque tempora ullam. Vitae delectus quia,
-                consequuntur rerum molestias quo.
+                Where you’ll learn how to speak comfortably in front of a group and lead with purpose. People 
+                who join Toastmasters find potential they never thought they had and achieve more of their goals and dreams.
               </p>
             </div>
           </div>
@@ -175,13 +174,13 @@ const IndexPage = () => (
             </div>
             <div className="fbox-desc">
               <h3>
-                What we Do.
-                <span className="subtitle">Make our Customers Happy.</span>
+                How Will You Benefit?
+                <span className="subtitle">Make you a more confident speaker and leader.</span>
               </h3>
               <p>
-                Porro repellat vero sapiente amet vitae quibusdam necessitatibus
-                consectetur, labore totam. Accusamus perspiciatis asperiores
-                labore esse ab accusantium ea modi ut.
+                Attend meetings where you will regularly practice skills that make you a more confident 
+                speaker and leader. These real-world, highly in-demand soft skills will help you advance 
+                your career, acclimate to a new city or even get a new job!
               </p>
             </div>
           </div>
@@ -406,27 +405,17 @@ const IndexPage = () => (
     <div className="promo promo-light" style={{ marginTop: "-100px" }}>
       <div style={{ width: "75%", marginLeft: "10%" }}>
         <h3>
-          Call us today at <span>+91.22.57412541</span> or Email us at{" "}
-          <span>
-            <a
-              href="/cdn-cgi/l/email-protection"
-              className="__cf_email__"
-              datacfemail="62111712120d10162201030c1403114c010d0f"
-            >
-              test@test.com
-            </a>
-          </span>
+          Call Carol at <a href="tel:9257522192">(925) 752-2192</a>
         </h3>
         <span>
-          We strive to provide Our Customers with Top Notch Support to make
-          their Theme Experience Wonderful
+          We would love for you to come and visit our club anytime!
         </span>
         <a
           style={{ marginRight: "10%" }}
-          href="/"
+          href="/contact-us"
           className="button button-xlarge button-rounded"
         >
-          Start Browsing
+          Contact Us
         </a>
       </div>
     </div>
