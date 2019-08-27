@@ -46,7 +46,7 @@ const Contact = () => (
     </section>
 
     <div className="content-wrap">
-    <Container>
+      <Container>
         <H3>Send us an Email</H3>
         <br />
         <form className="col-xl-9" style={{ display: "inline-block" }}>
@@ -109,6 +109,9 @@ const Contact = () => (
             }}
           >
             <Strong>Headquarters:</Strong>
+            <Para>Kaiser Permanente</Para>
+            <Para>Bldg 2</Para>
+            <Para>Conference Room 1B or 1C</Para>
             <Para>123 Address Blvd, Suite 600</Para>
             <Para>Antioch, CA 94509</Para>
           </div>
@@ -123,13 +126,7 @@ const Contact = () => (
             }}
           >
             <Para>
-              <Strong>Phone:</Strong> (123) 456-789
-            </Para>
-            <Para>
-              <Strong>Fax:</Strong> (123) 456-789
-            </Para>
-            <Para>
-              <Strong>Email:</Strong> email@email.com
+              <Strong>Phone:</Strong> (408) 483-5796
             </Para>
           </div>
           <div
@@ -141,21 +138,45 @@ const Contact = () => (
               padding: "0",
             }}
           >
-            <a href="/" className="social-icon si-rounded si-small si-facebook">
+            <a
+              href="https://www.facebook.com/toastmasterscreatingcommunicators"
+              className="social-icon si-rounded si-small si-facebook"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="icon-facebook"></i>
               <i className="icon-facebook"></i>
             </a>
-            <a href="/" className="social-icon si-rounded si-small si-twitter">
-              <i className="icon-twitter"></i>
-              <i className="icon-twitter"></i>
+            <a
+              href="https://www.linkedin.com/company-beta/18068202"
+              className="social-icon si-rounded si-small si-linkedin"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="icon-linkedin"></i>
+              <i className="icon-linkedin"></i>
             </a>
-            <a href="/" className="social-icon si-rounded si-small si-gplus">
-              <i className="icon-gplus"></i>
-              <i className="icon-gplus"></i>
+            <a
+              href="https://www.meetup.com/Antioch-and-Pittsburg-CA-Public-Speakers-Meetup/"
+              className="social-icon si-rounded si-small si-pinterest"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="icon-meetup"></i>
+              <i className="icon-meetup"></i>
+            </a>
+            <a
+              href="https://twitter.com/AntiochTM?lang=en"
+              className="social-icon si-rounded si-small si-twitter"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="icon-twitter"></i>
+              <i className="icon-twitter"></i>
             </a>
           </div>
         </div>
-    </Container>
+      </Container>
     </div>
   </Layout>
 )
