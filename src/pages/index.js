@@ -26,15 +26,15 @@ const IndexPage = () => (
             >
               <div className="container clearfix">
                 <div className="slider-caption slider-caption-center">
-                  <h2 data-animate="fadeInUp">Welcome to ToastMasters</h2>
-                  <p
-                    className="d-none d-sm-block"
-                    data-animate="fadeInUp"
-                    data-delay="200"
-                  >
-                    Create just what you need for your Perfect Website. Choose
-                    from a wide range of Elements &amp; simply put them on your
-                    own Canvas.
+                  <h2 data-animate="fadeInUp">Welcome to Creating Communicators</h2>
+                  <p className="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">
+                    <div>You are Invited to Our Next Meeting!</div>
+                    <div>This Tuesday Evening from 7:10 p.m. to 8:10 p.m.</div>
+                    <div>Kaiser Permanente, Bldg 2, Conference Room 1B or 1C</div>
+                    <div>4501 Deer Valley Rd. Antioch, CA 94531</div>
+                    <div style={{paddingTop: `1em`}}>
+                      <a class="button button-medium button-rounded" href="/about-us/">Directions</a>
+                    </div>
                   </p>
                 </div>
               </div>
