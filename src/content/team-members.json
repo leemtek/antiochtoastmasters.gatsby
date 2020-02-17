@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Bob Caldwell, ACB, CL",
+    "club_position": "President",
+    "phone": "",
+    "email": "",
+    "isContactPublic": false,
+    "bio": ""
+  },
+  {
+    "name": "Duane Leem, IP",
+    "club_position": "Vice President of Education",
+    "phone": "925-526-5229",
+    "email": "duane@leemfamily.com",
+    "isContactPublic": false,
+    "bio": "<p>I'm a software engineer emphasized on the creation of responsive websites and mobile applications.  I have my Masters in Information Technology Management and am a certified Project Management Professional (PMP).</p><p>I'm a lucky father of 3 and Martial Arts enthusiast when I'm not doing programming work :)</p><p>I joined Toastmasters to improve my confidence in public speaking, and improve my leadership abilities.</p>"
+  },
+  {
+    "name": "Carol Kuhn, PM3",
+    "club_position": "Vice President of Membership",
+    "phone": "925-752-2192",
+    "email": "kuhncarol@att.net",
+    "isContactPublic": false,
+    "bio": ""
+  },
+  {
+    "name": "",
+    "club_position": "",
+    "phone": "",
+    "email": "",
+    "isContactPublic": false,
+    "bio": ""
+  },
+  {
+    "name": "",
+    "club_position": "",
+    "phone": "",
+    "email": "",
+    "isContactPublic": false,
+    "bio": ""
+  },
+  {
+    "name": "",
+    "club_position": "",
+    "phone": "",
+    "email": "",
+    "isContactPublic": false,
+    "bio": ""
+  }
+]
