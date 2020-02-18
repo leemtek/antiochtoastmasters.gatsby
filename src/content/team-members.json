@@ -2,49 +2,70 @@
   {
     "name": "Bob Caldwell, ACB, CL",
     "club_position": "President",
-    "phone": "",
-    "email": "",
+    "phone": "408-483-5796",
+    "email": "greenbob2010@yahoo.com",
+    "facebook": null,
+    "photo": "https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/3.jpg",
     "isContactPublic": false,
-    "bio": ""
+    "bio": "Bob is a futurist and inventor, currently working as a master mechanic rebuilding transmissions. He has over 100 inventions to his name as is in the process of developing presentations for Venture Capitalists and using the Toastmaster Club forum as a testing ground. An author and past television program host, he keeps improving his skills through the Toastmasters program."
   },
   {
     "name": "Duane Leem, IP",
     "club_position": "Vice President of Education",
     "phone": "925-526-5229",
     "email": "duane@leemfamily.com",
-    "isContactPublic": false,
-    "bio": "<p>I'm a software engineer emphasized on the creation of responsive websites and mobile applications.  I have my Masters in Information Technology Management and am a certified Project Management Professional (PMP).</p><p>I'm a lucky father of 3 and Martial Arts enthusiast when I'm not doing programming work :)</p><p>I joined Toastmasters to improve my confidence in public speaking, and improve my leadership abilities.</p>"
+    "facebook": "https://www.facebook.com/duaneleem",
+    "linkedin": "https://github.com/duaneleem",
+    "website": "https://duaneleem.com/",
+    "photo": null,
+    "photo-team-member": "duaneleem-20200217.jpg",
+    "isContactPublic": true,
+    "bio": "I'm a software engineer emphasized on the creation of responsive websites and mobile applications.  I have my Masters in Information Technology Management and am a certified Project Management Professional (PMP).  I'm a lucky father of 3 and Martial Arts enthusiast when I'm not doing programming work :)  I joined Toastmasters to improve my confidence in public speaking, and improve my leadership abilities."
   },
   {
     "name": "Carol Kuhn, PM3",
     "club_position": "Vice President of Membership",
     "phone": "925-752-2192",
     "email": "kuhncarol@att.net",
+    "facebook": null,
+    "photo": "https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/8.jpg",
     "isContactPublic": false,
-    "bio": ""
+    "bio": "I've been a member of Toastmasters since February 2018.  I joined to gain more confidence speaking in front of an audience.  I tend to freeze when I have something memorized so I'm overcoming that. I am retired from accounting,  science and tutoring and looking for more creative endeavors."
   },
   {
-    "name": "",
-    "club_position": "",
-    "phone": "",
-    "email": "",
+    "name": "John Case, ACB",
+    "club_position": "Vice President of Public Relations",
+    "phone": "925-308-7045",
+    "email": "johnacase@comcast.net",
+    "facebook": "http://www.facebook.com/bepah",
     "isContactPublic": false,
-    "bio": ""
+    "bio": "I have been a member of TI since 1984, off and on. I enjoy the challenge of extemporaneous speaking and sharing my experience with others. I am a Real Estate Broker and part of my success is communicating to my client thanks to TI!"
   },
   {
-    "name": "",
-    "club_position": "",
-    "phone": "",
-    "email": "",
+    "name": "Diana Case, CTM",
+    "club_position": "Secretary",
+    "phone": null,
+    "email": null,
+    "photo": null,
     "isContactPublic": false,
-    "bio": ""
+    "bio": null
   },
   {
-    "name": "",
-    "club_position": "",
-    "phone": "",
-    "email": "",
+    "name": "Michael Pruett",
+    "club_position": "Treasurer",
+    "phone": "925-708-4186",
+    "email": "mikepruett01@gmail.com",
+    "photo": "https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/4.jpg",
     "isContactPublic": false,
-    "bio": ""
+    "bio": "I was born in Oakland, California and grew up in Berkeley.   I have a BS Business- Finance and an MS in Taxation and I am a CPA..  I am currently manager of a family trust.  My goal in Toastmasters is to practice Standup Therapy.  That is my description for helping people feel happier and healthier through laughing together."
+  },
+  {
+    "name": "Joe Amaro, DTM",
+    "club_position": "Immediate Past President",
+    "phone": "510-812-2282",
+    "email": "amaroj@sbcglobal.net",
+    "photo": "https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/3.jpg",
+    "isContactPublic": false,
+    "bio": "Immediate Past President (2017-2018), Area Director, Toastmasters District 57, Division B (2015).  Management Consultant and Trainer for over 25 years.  Educated at Yale University and Stanford Graduate School of Business.  Past President Creating Communicators (2010, 2014,2016, 2018); Past District 57 Lt. Governor for Education (1984); Past President La Raza TM Club (1991); Past President Castro Valley #961 (1981)."
   }
 ]
