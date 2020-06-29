@@ -1,0 +1,45 @@
+{/* <!-- Second Slider Pic
+                ============================================= --> */}
+                <div
+                  className="swiper-slide dark"
+                  style={{
+                    backgroundImage: `url(https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/slider/swiper/2.jpg)`,
+                  }}
+                >
+                  <div className="container clearfix">
+                    <div className="slider-caption slider-caption-center">
+                      <h2 data-animate="fadeInUp">Great Performance</h2>
+                      <p
+                        className="d-none d-sm-block"
+                        data-animate="fadeInUp"
+                        data-delay="200"
+                      >
+                        You'll be surprised to see the Final Results of your
+                        Creation &amp; would crave for more.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* <!-- Third Slider Pic
+                ============================================= --> */}
+                <div
+                  className="swiper-slide"
+                  style={{
+                    backgroundImage: `url(https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/slider/swiper/3.jpg)`,
+                  }}
+                >
+                  <div className="container clearfix">
+                    <div className="slider-caption ">
+                      <h2 data-animate="fadeInUp">Great Speaches</h2>
+                      <p
+                        className="d-none d-sm-block"
+                        data-animate="fadeInUp"
+                        data-delay="200"
+                      >
+                        You'll be surprised to see the Final Results of your
+                        Creation &amp; would crave for more.
+                      </p>
+                    </div>
+                  </div>
+                </div>
