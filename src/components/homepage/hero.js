@@ -22,7 +22,7 @@ class Hero extends React.Component {
                   <div className="container clearfix">
                     <div className="row">
                       <div className="col-md-12 col-lg-3 slider-caption">
-                        <img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/toastmasters-international-icon.png" />
+                        <img src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/toastmasters-international-icon.png" alt="Toastmasters International" />
                       </div>{/* /col */}
                       <div className="col-md-12 col-lg-9 slider-caption">
                         <div>Welcome to</div>
