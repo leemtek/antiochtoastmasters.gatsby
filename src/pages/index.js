@@ -102,9 +102,9 @@ const IndexPage = () => (
     <div className="section" style={{ marginTop: "-100px" }}>
       <div className="container clearfix">
         <div className="heading-block topmargin-sm center">
-          <h3>Our Team</h3>
+          <h3>Club Officers</h3>
           <span className="divcenter">
-            People who have contributed enormously to our Company
+            Our Creating Communicators Club Officers
           </span>
         </div>
 
@@ -124,15 +124,15 @@ const IndexPage = () => (
               ============================================= --> */}
               <div className="team-desc">
                 <div className="team-title">
-                  <h4>John Doe</h4>
-                  <span>CEO</span>
+                  <h4>Bob Caldwell, ACB, CL</h4>
+                  <span>President</span>
                 </div>
                 <div className="team-content">
                   <p>
-                    Carbon emissions reductions giving, legitimize amplify
-                    non-partisan Aga Khan. Policy dialogue assessment expert
-                    free-speech cornerstone disruptor freedom. Cesar Chavez
-                    empower.
+                    Bob is a futurist and inventor, currently working as a master mechanic rebuilding transmissions. He has over 100 
+                    inventions to his name as is in the process of developing presentations for Venture Capitalists and using the 
+                    Toastmaster Club forum as a testing ground. An author and past television program host, he keeps improving his 
+                    skills through the Toastmasters program.
                   </p>
                 </div>
                 <a
@@ -166,20 +166,21 @@ const IndexPage = () => (
             <div className="team team-list clearfix">
               <div className="team-image">
                 <img
-                  src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/2.jpg"
-                  alt="Nix Maxwell"
+                  src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/joe-amaro.jpg"
+                  alt="Joe Amaro"
                 />
               </div>
               <div className="team-desc">
                 <div className="team-title">
-                  <h4>Nix Maxwell</h4>
-                  <span>Support</span>
+                  <h4>Joe Amaro</h4>
+                  <span>Immediate Past President</span>
                 </div>
                 <div className="team-content">
                   <p>
-                    Eradicate invest honesty human rights accessibility theory
-                    of social change. Diversity experience in the field
-                    compassion, inspire breakthroughs planned giving.
+                    Immediate Past President (2017-2018), Area Director, Toastmasters District 57, Division B (2015).  Management Consultant and Trainer for 
+                    over 25 years.  Educated at Yale University and Stanford Graduate School of Business.  Past President Creating Communicators (2010, 
+                    2014,2016, 2018); Past District 57 Lt. Governor for Education (1984); Past President La Raza TM Club (1991); Past President Castro Valley 
+                    #961 (1981).
                   </p>
                 </div>
                 <a
@@ -217,21 +218,20 @@ const IndexPage = () => (
               ============================================= --> */}
               <div className="team-image">
                 <img
-                  src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/4.jpg"
-                  alt="John Doe"
+                  src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/duane-leem-aws.jpg"
+                  alt="Duane Leem"
                 />
               </div>
               <div className="team-desc">
                 <div className="team-title">
-                  <h4>Jon Tableman</h4>
-                  <span>CEO</span>
+                  <h4>Duane Leem</h4>
+                  <span>VP of Education</span>
                 </div>
                 <div className="team-content">
                   <p>
-                    Carbon emissions reductions giving, legitimize amplify
-                    non-partisan Aga Khan. Policy dialogue assessment expert
-                    free-speech cornerstone disruptor freedom. Cesar Chavez
-                    empower.
+                    I'm a software engineer emphasized on the creation of responsive websites and mobile applications.  
+                    I have my Masters in Information Technology Management and am a certified Project Management Professional (PMP).<br /><br />
+                    I joined Toastmasters to improve my confidence in public speaking, and improve my leadership abilities.
                   </p>
                 </div>
                 <a
@@ -270,15 +270,201 @@ const IndexPage = () => (
               </div>
               <div className="team-desc">
                 <div className="team-title">
-                  <h4>Mary Jane</h4>
-                  <span>Support</span>
+                  <h4>Carol Kuhn, PM3</h4>
+                  <span>VP of Membership</span>
                 </div>
                 <div className="team-content">
                   <p>
-                    Eradicate invest honesty human rights accessibility theory
-                    of social change. Diversity experience in the field
-                    compassion, inspire breakthroughs planned giving.
+                    I've been a member of Toastmasters since February 2018.  I joined to gain more confidence speaking 
+                    in front of an audience.  I tend to freeze when I have something memorized so I'm overcoming that. 
+                    I am retired from accounting,  science and tutoring and looking for more creative endeavors.
                   </p>
+                </div>
+                <a
+                  href="/"
+                  className="social-icon si-rounded si-small si-forrst"
+                >
+                  <i className="icon-forrst"></i>
+                  <i className="icon-forrst"></i>
+                </a>
+                <a
+                  href="/"
+                  className="social-icon si-rounded si-small si-skype"
+                >
+                  <i className="icon-skype"></i>
+                  <i className="icon-skype"></i>
+                </a>
+                <a
+                  href="/"
+                  className="social-icon si-rounded si-small si-flickr"
+                >
+                  <i className="icon-flickr"></i>
+                  <i className="icon-flickr"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* <!-- Our Team Row 3
+        ============================================= --> */}
+        <div className="row">
+          <div className="col-lg-6 bottommargin">
+            <div className="team team-list clearfix">
+              {/* <!-- Our Team Row 3 Left Pic
+              ============================================= --> */}
+              <div className="team-image">
+                <img
+                  src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/4.jpg"
+                  alt="John Doe"
+                />
+              </div>
+              <div className="team-desc">
+                <div className="team-title">
+                  <h4>John Case, ACB</h4>
+                  <span>VP of Public Relations</span>
+                </div>
+                <div className="team-content">
+                  <p>
+                    I have been a member of TI since 1984, off and on. I enjoy the challenge of extemporaneous speaking and sharing my experience with others.<br /><br />
+                    I am a Real Estate Broker and part of my success is communicating to my client thanks to TI!
+                  </p>
+                </div>
+                <a
+                  href="/"
+                  className="social-icon si-rounded si-small si-facebook"
+                >
+                  <i className="icon-facebook"></i>
+                  <i className="icon-facebook"></i>
+                </a>
+                <a
+                  href="/"
+                  className="social-icon si-rounded si-small si-twitter"
+                >
+                  <i className="icon-twitter"></i>
+                  <i className="icon-twitter"></i>
+                </a>
+                <a
+                  href="/"
+                  className="social-icon si-rounded si-small si-gplus"
+                >
+                  <i className="icon-gplus"></i>
+                  <i className="icon-gplus"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-6 bottommargin">
+            <div className="team team-list clearfix">
+              {/* <!-- Our Team Row 3 Right Pic
+              ============================================= --> */}
+              <div className="team-image">
+                <img
+                  src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/4.jpg"
+                  alt="Nix Maxwell"
+                />
+              </div>
+              <div className="team-desc">
+                <div className="team-title">
+                  <h4>Michael Pruett, PM</h4>
+                  <span>Treasurer</span>
+                </div>
+                <div className="team-content">
+                  <p>
+                    I was born in Oakland, California and grew up in Berkeley.   I am a retired CPA with a Masters in Taxation.  
+                    I am a volunteer at the Antioch Family History where I help people research their family trees with free access 
+                    to the world's largest genealogy record databases.   I am currently working on the Toastmaster's Engaging Humor 
+                    Pathway.  I am interested in Gelotology - the study of laughter and its healing effect on the mind and body.
+                  </p>
+                </div>
+                <a
+                  href="/"
+                  className="social-icon si-rounded si-small si-forrst"
+                >
+                  <i className="icon-forrst"></i>
+                  <i className="icon-forrst"></i>
+                </a>
+                <a
+                  href="/"
+                  className="social-icon si-rounded si-small si-skype"
+                >
+                  <i className="icon-skype"></i>
+                  <i className="icon-skype"></i>
+                </a>
+                <a
+                  href="/"
+                  className="social-icon si-rounded si-small si-flickr"
+                >
+                  <i className="icon-flickr"></i>
+                  <i className="icon-flickr"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* <!-- Our Team Row 4
+        ============================================= --> */}
+        <div className="row">
+          <div className="col-lg-6 bottommargin">
+            <div className="team team-list clearfix">
+              {/* <!-- Our Team Row 4 Left Pic
+              ============================================= --> */}
+              <div className="team-image">
+                <img
+                  src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/8.jpg"
+                  alt="John Doe"
+                />
+              </div>
+              <div className="team-desc">
+                <div className="team-title">
+                  <h4>Sunia Halatoa, IP</h4>
+                  <span>Sergeant at Arms</span>
+                </div>
+                <div className="team-content">
+                  <p></p>
+                </div>
+                <a
+                  href="/"
+                  className="social-icon si-rounded si-small si-facebook"
+                >
+                  <i className="icon-facebook"></i>
+                  <i className="icon-facebook"></i>
+                </a>
+                <a
+                  href="/"
+                  className="social-icon si-rounded si-small si-twitter"
+                >
+                  <i className="icon-twitter"></i>
+                  <i className="icon-twitter"></i>
+                </a>
+                <a
+                  href="/"
+                  className="social-icon si-rounded si-small si-gplus"
+                >
+                  <i className="icon-gplus"></i>
+                  <i className="icon-gplus"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-6 bottommargin">
+            <div className="team team-list clearfix">
+              {/* <!-- Our Team Row 4 Right Pic
+              ============================================= --> */}
+              <div className="team-image">
+                <img
+                  src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/8.jpg"
+                  alt="Nix Maxwell"
+                />
+              </div>
+              <div className="team-desc">
+                <div className="team-title">
+                  <h4>Diana Case, CTM</h4>
+                  <span>Secretary</span>
+                </div>
+                <div className="team-content">
+                  <p></p>
                 </div>
                 <a
                   href="/"
