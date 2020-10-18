@@ -5,3 +5,10 @@
  */
 
 import "./src/styles/global.css"
+const jQuery = require('jquery');
+
+export const onInitialClientRender = () => {
+  jQuery(document).ready(function () {
+    console.log("jQuery successfully loaded, I guess =)")
+  });
+}
