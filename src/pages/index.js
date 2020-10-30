@@ -391,14 +391,16 @@ const IndexPage = () => (
     <div className="promo promo-light" style={{ marginTop: "-100px" }}>
       <div style={{ width: "75%", marginLeft: "10%" }}>
         <h3>
-          Call Carol at <a href="tel:9257522192">(925) 752-2192</a>
+          Contact Us Today!
         </h3>
         <span>
           We would love for you to come and visit our club anytime!
         </span>
         <a
           style={{ marginRight: "10%" }}
-          href="/contact-us"
+          href="https://ccclub.toastmastersclubs.org/"
+          target="_blank"
+          rel="noreferrer"
           className="button button-xlarge button-rounded"
         >
           Contact Us
