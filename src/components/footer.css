@@ -1,0 +1,7 @@
+iframe {
+  height: 400px;
+  border: 0;
+}
+.fluid-width-video-wrapper {
+  padding-top: 100% !important;
+}
