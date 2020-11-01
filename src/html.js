@@ -26,7 +26,6 @@ export default function HTML(props) {
           href="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/css/colors.css"
           type="text/css"
         />
-
         <link
           rel="stylesheet"
           href="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/css/swiper.css"
@@ -57,7 +56,6 @@ export default function HTML(props) {
           href="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/css/responsive.css"
           type="text/css"
         />
-        <script src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/js/jquery.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {props.headComponents}
       </head>
