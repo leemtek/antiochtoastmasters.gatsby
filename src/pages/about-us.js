@@ -28,6 +28,63 @@ const About = () => (
       <div className="content-wrap">
         <div className="container clearfix">
           <div className="col_full">
+            <div className="heading-block center">
+              <h2>About Creating Communicators</h2>
+              <span>Toastmasters Club at Kaiser Antioch</span>
+            </div>
+            <div className="row">
+              <div className="col-md-12">
+                <p className="text-larger text-center bottommargin-sm">
+                  We believe In the power of communication. Creating
+                  Communicators is a club that enjoys the fine art of
+                  communication. Our members grow in a supportive relaxed
+                  atmosphere that allow them to thrive, advance and achieve
+                  their goals.
+                </p>
+              </div>
+              <div className="col-md-6">
+                <img
+                  src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/about-us-2019-2020.jpg"
+                  className="lazy m-0"
+                  alt="About Us 2019-2020"
+                />
+                <p className="text-center" style={{ fontWeight: `600` }}>
+                  2019-2020
+                </p>
+              </div>
+              <div className="col-md-6">
+                <img
+                  src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/about-us-2018-2019.jpg"
+                  className="lazy m-0"
+                  alt="About Us 2018-2019"
+                />
+                <p className="text-center" style={{ fontWeight: `600` }}>
+                  2018-2019
+                </p>
+              </div>
+              <div className="offset-md-1 col-md-5" align="center">
+                <img
+                  src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/about-us-2017-2018.jpg"
+                  className="lazy m-0"
+                  alt="About Us 2017-2018"
+                />
+                <p className="text-center" style={{ fontWeight: `600` }}>
+                  2017-2018
+                </p>
+              </div>
+              <div className="col-md-5" align="center">
+                <img
+                  src="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/about-us-2016-2017.jpg"
+                  className="lazy m-0"
+                  alt="About Us 2016-2017"
+                />
+                <p className="text-center" style={{ fontWeight: `600` }}>
+                  2016-2017
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col_full">
             <div className="heading-block center nobottomborder">
               <h2>Interactive Office Environment</h2>
               <span>
