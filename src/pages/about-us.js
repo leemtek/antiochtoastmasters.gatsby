@@ -223,20 +223,20 @@ const About = () => (
           <div className="row">
             <div className="col-lg-6 bottommargin">
               <Membercard
-                name="Bob Caldwell, ACB, CL"
+                name="Duane Leem, IP5 PI2"
                 jobtitle="President"
-                imgurl="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/3.jpg"
-                imgalt="John Doe"
+                imgurl="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/duane-leem-aws.jpg"
+                imgalt="Duane Leem"
               >
                 <div className="team-content">
                   <p>
-                    Bob is a futurist and inventor, currently working as a
-                    master mechanic rebuilding transmissions. He has over 100
-                    inventions to his name as is in the process of developing
-                    presentations for Venture Capitalists and using the
-                    Toastmaster Club forum as a testing ground. An author and
-                    past television program host, he keeps improving his skills
-                    through the Toastmasters program.
+                    I'm a software engineer emphasized on the creation of
+                    responsive websites and mobile applications. I have my
+                    Masters in Information Technology Management and am a
+                    certified Project Management Professional (PMP).
+                    <br />
+                    <br />I joined Toastmasters to improve my confidence in
+                    public speaking, and improve my leadership abilities.
                   </p>
                 </div>
                 <a
@@ -267,8 +267,96 @@ const About = () => (
             ============================================= --> */}
             <div className="col-lg-6 bottommargin">
               <Membercard
-                name="Joe Amaro"
+                name="Bob Caldwell, ACB, CL"
                 jobtitle="Immediate Past President"
+                imgurl="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/toastmaster-international-banner.jpg"
+                imgalt="Bob Caldwell"
+              >
+                <div className="team-content">
+                  <p>
+                    Bob is a futurist and inventor, currently working as a
+                    master mechanic rebuilding transmissions. He has over 100
+                    inventions to his name as is in the process of developing
+                    presentations for Venture Capitalists and using the
+                    Toastmaster Club forum as a testing ground. An author and
+                    past television program host, he keeps improving his skills
+                    through the Toastmasters program.
+                  </p>
+                </div>
+                <a
+                  href="/"
+                  className="social-icon si-rounded si-small si-forrst"
+                >
+                  <i className="icon-forrst"></i>
+                  <i className="icon-forrst"></i>
+                </a>
+                <a
+                  href="/"
+                  className="social-icon si-rounded si-small si-skype"
+                >
+                  <i className="icon-skype"></i>
+                  <i className="icon-skype"></i>
+                </a>
+                <a
+                  href="/"
+                  className="social-icon si-rounded si-small si-flickr"
+                >
+                  <i className="icon-flickr"></i>
+                  <i className="icon-flickr"></i>
+                </a>
+              </Membercard>
+            </div>
+          </div>
+
+          {/* <!-- Our Team Row 2
+          ============================================= --> */}
+          <div className="row">
+            <div className="col-lg-6 bottommargin">
+              <Membercard
+                name="Michael Pruett, PM5, EH2"
+                jobtitle="VP of Education"
+                imgurl="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/toastmaster-international-banner.jpg"
+                imgalt="Michael Pruett"
+              >
+                <div className="team-content">
+                  <p>
+                    I was born in Oakland, California and grew up in Berkeley. I
+                    am a retired CPA with a Masters in Taxation. I am a
+                    volunteer at the Antioch Family History where I help people
+                    research their family trees with free access to the world's
+                    largest genealogy record databases. I am currently working
+                    on the Toastmaster's Engaging Humor Pathway. I am interested
+                    in Gelotology - the study of laughter and its healing effect
+                    on the mind and body.
+                  </p>
+                </div>
+                <a
+                  href="/"
+                  className="social-icon si-rounded si-small si-facebook"
+                >
+                  <i className="icon-facebook"></i>
+                  <i className="icon-facebook"></i>
+                </a>
+                <a
+                  href="/"
+                  className="social-icon si-rounded si-small si-twitter"
+                >
+                  <i className="icon-twitter"></i>
+                  <i className="icon-twitter"></i>
+                </a>
+                <a
+                  href="/"
+                  className="social-icon si-rounded si-small si-gplus"
+                >
+                  <i className="icon-gplus"></i>
+                  <i className="icon-gplus"></i>
+                </a>
+              </Membercard>
+            </div>
+            <div className="col-lg-6 bottommargin">
+              <Membercard
+                name="Joe Amaro, DTM"
+                jobtitle="VP of Membership"
                 imgurl="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/joe-amaro.jpg"
                 imgalt="Joe Amaro"
               >
@@ -307,263 +395,88 @@ const About = () => (
                 </a>
               </Membercard>
             </div>
-
-            {/* <!-- Our Team Row 2
-            ============================================= --> */}
-            <div className="row">
-              <div className="col-lg-6 bottommargin">
-                <Membercard
-                  name="Duane Leem"
-                  jobtitle="VP of Education"
-                  imgurl="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/duane-leem-aws.jpg"
-                  imgalt="Duane Leem"
+          </div>
+          {/* <!-- Our Team Row 3
+          ============================================= --> */}
+          <div className="row">
+            <div className="col-lg-6 bottommargin">
+              <Membercard
+                name="John Case, ACB, PI1"
+                jobtitle="VP of Public Relations"
+                imgurl="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/toastmaster-international-banner.jpg"
+                imgalt="John Case"
+              >
+                <div className="team-content">
+                  <p>
+                    I have been a member of TI since 1984, off and on. I enjoy
+                    the challenge of extemporaneous speaking and sharing my
+                    experience with others.
+                    <br />
+                    <br />I am a Real Estate Broker and part of my success is
+                    communicating to my client thanks to TI!
+                  </p>
+                </div>
+                <a
+                  href="/"
+                  className="social-icon si-rounded si-small si-facebook"
                 >
-                  <div className="team-content">
-                    <p>
-                      I'm a software engineer emphasized on the creation of
-                      responsive websites and mobile applications. I have my
-                      Masters in Information Technology Management and am a
-                      certified Project Management Professional (PMP).
-                      <br />
-                      <br />I joined Toastmasters to improve my confidence in
-                      public speaking, and improve my leadership abilities.
-                    </p>
-                  </div>
-                  <a
-                    href="/"
-                    className="social-icon si-rounded si-small si-facebook"
-                  >
-                    <i className="icon-facebook"></i>
-                    <i className="icon-facebook"></i>
-                  </a>
-                  <a
-                    href="/"
-                    className="social-icon si-rounded si-small si-twitter"
-                  >
-                    <i className="icon-twitter"></i>
-                    <i className="icon-twitter"></i>
-                  </a>
-                  <a
-                    href="/"
-                    className="social-icon si-rounded si-small si-gplus"
-                  >
-                    <i className="icon-gplus"></i>
-                    <i className="icon-gplus"></i>
-                  </a>
-                </Membercard>
-              </div>
-              <div className="col-lg-6 bottommargin">
-                <Membercard
-                  name="Carol Kuhn, PM3"
-                  jobtitle="VP of Membership"
-                  imgurl="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/8.jpg"
-                  imgalt="Carol Kuhn"
+                  <i className="icon-facebook"></i>
+                  <i className="icon-facebook"></i>
+                </a>
+                <a
+                  href="/"
+                  className="social-icon si-rounded si-small si-twitter"
                 >
-                  <div className="team-content">
-                    <p>
-                      I've been a member of Toastmasters since February 2018. I
-                      joined to gain more confidence speaking in front of an
-                      audience. I tend to freeze when I have something memorized
-                      so I'm overcoming that. I am retired from accounting,
-                      science and tutoring and looking for more creative
-                      endeavors.
-                    </p>
-                  </div>
-                  <a
-                    href="/"
-                    className="social-icon si-rounded si-small si-forrst"
-                  >
-                    <i className="icon-forrst"></i>
-                    <i className="icon-forrst"></i>
-                  </a>
-                  <a
-                    href="/"
-                    className="social-icon si-rounded si-small si-skype"
-                  >
-                    <i className="icon-skype"></i>
-                    <i className="icon-skype"></i>
-                  </a>
-                  <a
-                    href="/"
-                    className="social-icon si-rounded si-small si-flickr"
-                  >
-                    <i className="icon-flickr"></i>
-                    <i className="icon-flickr"></i>
-                  </a>
-                </Membercard>
-              </div>
+                  <i className="icon-twitter"></i>
+                  <i className="icon-twitter"></i>
+                </a>
+                <a
+                  href="/"
+                  className="social-icon si-rounded si-small si-gplus"
+                >
+                  <i className="icon-gplus"></i>
+                  <i className="icon-gplus"></i>
+                </a>
+              </Membercard>
             </div>
-
-            {/* <!-- Our Team Row 3
-            ============================================= --> */}
-            <div className="row">
-              <div className="col-lg-6 bottommargin">
-                <Membercard
-                  name="John Case, ACB"
-                  jobtitle="VP of Public Relations"
-                  imgurl="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/4.jpg"
-                  imgalt="John Case"
+            <div className="col-lg-6 bottommargin">
+              <Membercard
+                name="Stacey Saadiq, MS3"
+                jobtitle="Secretary"
+                imgurl="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/toastmaster-international-banner.jpg"
+                imgalt="Stacey Saadiq"
+              >
+                <div className="team-content">
+                  <p>
+                    Stacey has been a Toast Master since 2017. She is a world
+                    traveler and author of a children’s book. She is also a
+                    licensed Center for Spiritual Living Practitioner. She has
+                    chosen the Pathway, "Motivational Speaking" to help her
+                    achieve her goals.
+                  </p>
+                </div>
+                <a
+                  href="/"
+                  className="social-icon si-rounded si-small si-forrst"
                 >
-                  <div className="team-content">
-                    <p>
-                      I have been a member of TI since 1984, off and on. I enjoy
-                      the challenge of extemporaneous speaking and sharing my
-                      experience with others.
-                      <br />
-                      <br />I am a Real Estate Broker and part of my success is
-                      communicating to my client thanks to TI!
-                    </p>
-                  </div>
-                  <a
-                    href="/"
-                    className="social-icon si-rounded si-small si-facebook"
-                  >
-                    <i className="icon-facebook"></i>
-                    <i className="icon-facebook"></i>
-                  </a>
-                  <a
-                    href="/"
-                    className="social-icon si-rounded si-small si-twitter"
-                  >
-                    <i className="icon-twitter"></i>
-                    <i className="icon-twitter"></i>
-                  </a>
-                  <a
-                    href="/"
-                    className="social-icon si-rounded si-small si-gplus"
-                  >
-                    <i className="icon-gplus"></i>
-                    <i className="icon-gplus"></i>
-                  </a>
-                </Membercard>
-              </div>
-              <div className="col-lg-6 bottommargin">
-                <Membercard
-                  name="Michael Pruett, PM"
-                  jobtitle="Treasurer"
-                  imgurl="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/4.jpg"
-                  imgalt="Michael Pruett"
+                  <i className="icon-forrst"></i>
+                  <i className="icon-forrst"></i>
+                </a>
+                <a
+                  href="/"
+                  className="social-icon si-rounded si-small si-skype"
                 >
-                  <div className="team-content">
-                    <p>
-                      I was born in Oakland, California and grew up in Berkeley.
-                      I am a retired CPA with a Masters in Taxation. I am a
-                      volunteer at the Antioch Family History where I help
-                      people research their family trees with free access to the
-                      world's largest genealogy record databases. I am currently
-                      working on the Toastmaster's Engaging Humor Pathway. I am
-                      interested in Gelotology - the study of laughter and its
-                      healing effect on the mind and body.
-                    </p>
-                  </div>
-                  <a
-                    href="/"
-                    className="social-icon si-rounded si-small si-forrst"
-                  >
-                    <i className="icon-forrst"></i>
-                    <i className="icon-forrst"></i>
-                  </a>
-                  <a
-                    href="/"
-                    className="social-icon si-rounded si-small si-skype"
-                  >
-                    <i className="icon-skype"></i>
-                    <i className="icon-skype"></i>
-                  </a>
-                  <a
-                    href="/"
-                    className="social-icon si-rounded si-small si-flickr"
-                  >
-                    <i className="icon-flickr"></i>
-                    <i className="icon-flickr"></i>
-                  </a>
-                </Membercard>
-              </div>
-            </div>
-
-            {/* <!-- Our Team Row 4
-            ============================================= --> */}
-            <div className="row">
-              <div className="col-lg-6 bottommargin">
-                <Membercard
-                  name="Sunia Halatoa, IP"
-                  jobtitle="Sergeant at Arms"
-                  imgurl="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/8.jpg"
-                  imgalt="Sunia Halatoa"
+                  <i className="icon-skype"></i>
+                  <i className="icon-skype"></i>
+                </a>
+                <a
+                  href="/"
+                  className="social-icon si-rounded si-small si-flickr"
                 >
-                  <div className="team-content">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Aenean ut lectus luctus, ornare velit ut, congue dui.
-                      Morbi molestie bibendum mollis. Vestibulum mollis
-                      ullamcorper urna ac vehicula. Ut bibendum consequat
-                      consectetur. Sed vitae eleifend diam. Etiam tempor a dui
-                      non mattis. Maecenas in turpis leo.
-                    </p>
-                  </div>
-                  <a
-                    href="/"
-                    className="social-icon si-rounded si-small si-facebook"
-                  >
-                    <i className="icon-facebook"></i>
-                    <i className="icon-facebook"></i>
-                  </a>
-                  <a
-                    href="/"
-                    className="social-icon si-rounded si-small si-twitter"
-                  >
-                    <i className="icon-twitter"></i>
-                    <i className="icon-twitter"></i>
-                  </a>
-                  <a
-                    href="/"
-                    className="social-icon si-rounded si-small si-gplus"
-                  >
-                    <i className="icon-gplus"></i>
-                    <i className="icon-gplus"></i>
-                  </a>
-                </Membercard>
-              </div>
-              <div className="col-lg-6 bottommargin">
-                <Membercard
-                  name="Diana Case, CTM"
-                  jobtitle="Secretary"
-                  imgurl="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/template/images/team/8.jpg"
-                  imgalt="Diana Case"
-                >
-                  <div className="team-content">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Aenean ut lectus luctus, ornare velit ut, congue dui.
-                      Morbi molestie bibendum mollis. Vestibulum mollis
-                      ullamcorper urna ac vehicula. Ut bibendum consequat
-                      consectetur. Sed vitae eleifend diam. Etiam tempor a dui
-                      non mattis. Maecenas in turpis leo.
-                    </p>
-                  </div>
-                  <a
-                    href="/"
-                    className="social-icon si-rounded si-small si-forrst"
-                  >
-                    <i className="icon-forrst"></i>
-                    <i className="icon-forrst"></i>
-                  </a>
-                  <a
-                    href="/"
-                    className="social-icon si-rounded si-small si-skype"
-                  >
-                    <i className="icon-skype"></i>
-                    <i className="icon-skype"></i>
-                  </a>
-                  <a
-                    href="/"
-                    className="social-icon si-rounded si-small si-flickr"
-                  >
-                    <i className="icon-flickr"></i>
-                    <i className="icon-flickr"></i>
-                  </a>
-                </Membercard>
-              </div>
+                  <i className="icon-flickr"></i>
+                  <i className="icon-flickr"></i>
+                </a>
+              </Membercard>
             </div>
           </div>
         </div>
