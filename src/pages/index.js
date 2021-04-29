@@ -277,43 +277,6 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-lg-6 bottommargin">
             <Membercard
-              name="John Case, ACB, PI1"
-              jobtitle="VP of Public Relations"
-              imgurl="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/toastmaster-international-banner.jpg"
-              imgalt="John Case"
-            >
-              <div className="team-content">
-                <p>
-                  I have been a member of TI since 1984, off and on. I enjoy the
-                  challenge of extemporaneous speaking and sharing my experience
-                  with others.
-                  <br />
-                  <br />I am a Real Estate Broker and part of my success is
-                  communicating to my client thanks to TI!
-                </p>
-              </div>
-              <a
-                href="/"
-                className="social-icon si-rounded si-small si-facebook"
-              >
-                <i className="icon-facebook"></i>
-                <i className="icon-facebook"></i>
-              </a>
-              <a
-                href="/"
-                className="social-icon si-rounded si-small si-twitter"
-              >
-                <i className="icon-twitter"></i>
-                <i className="icon-twitter"></i>
-              </a>
-              <a href="/" className="social-icon si-rounded si-small si-gplus">
-                <i className="icon-gplus"></i>
-                <i className="icon-gplus"></i>
-              </a>
-            </Membercard>
-          </div>
-          <div className="col-lg-6 bottommargin">
-            <Membercard
               name="Stacey Saadiq, MS3"
               jobtitle="Secretary"
               imgurl="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/toastmaster-international-banner.jpg"
@@ -342,7 +305,77 @@ const IndexPage = () => (
               </a>
             </Membercard>
           </div>
-        </div>
+          <div className="col-lg-6 bottommargin">
+            <Membercard
+              name="Adalberto Cuellar Franco"
+              jobtitle="Sergeant at Arms"
+              imgurl="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/toastmaster-international-banner.jpg"
+              imgalt="Adalberto Cuellar Franco"
+            >
+              <div className="team-content">
+                <p>
+                  {/* bio */}
+                </p>
+              </div>
+              <a
+                href="/"
+                className="social-icon si-rounded si-small si-facebook"
+              >
+                <i className="icon-facebook"></i>
+                <i className="icon-facebook"></i>
+              </a>
+              <a
+                href="/"
+                className="social-icon si-rounded si-small si-twitter"
+              >
+                <i className="icon-twitter"></i>
+                <i className="icon-twitter"></i>
+              </a>
+              <a href="/" className="social-icon si-rounded si-small si-gplus">
+                <i className="icon-gplus"></i>
+                <i className="icon-gplus"></i>
+              </a>
+            </Membercard>
+          </div>
+        </div>{/* /row */}
+
+        {/* <!-- Our Team Row 4
+        ============================================= --> */}
+        <div className="row">
+          <div className="col-lg-6 bottommargin">
+            <Membercard
+              name="David Selvin"
+              jobtitle="VP of Public Relations"
+              imgurl="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/toastmaster-international-banner.jpg"
+              imgalt="David Selvin"
+            >
+              <div className="team-content">
+                <p>
+                  {/* bio */}
+                </p>
+              </div>
+              <a
+                href="/"
+                className="social-icon si-rounded si-small si-facebook"
+              >
+                <i className="icon-facebook"></i>
+                <i className="icon-facebook"></i>
+              </a>
+              <a
+                href="/"
+                className="social-icon si-rounded si-small si-twitter"
+              >
+                <i className="icon-twitter"></i>
+                <i className="icon-twitter"></i>
+              </a>
+              <a href="/" className="social-icon si-rounded si-small si-gplus">
+                <i className="icon-gplus"></i>
+                <i className="icon-gplus"></i>
+              </a>
+            </Membercard>
+          </div>
+          
+        </div>{/* /row */}
       </div>
     </div>
 

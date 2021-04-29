@@ -91,266 +91,265 @@ const About = () => (
           </div>
 
           {/* <!-- Our Team Row 1
-          ============================================= --> */}
-          <div className="row">
-            <div className="col-lg-6 bottommargin">
-              <Membercard
-                name="Duane Leem, IP5 PI2"
-                jobtitle="President"
-                imgurl="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/duane-leem-aws.jpg"
-                imgalt="Duane Leem"
+        ============================================= --> */}
+        <div className="row">
+          <div className="col-lg-6 bottommargin">
+            <Membercard
+              name="Duane Leem, IP5 PI2"
+              jobtitle="President"
+              imgurl="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/duane-leem-aws.jpg"
+              imgalt="Duane Leem"
+            >
+              <div className="team-content">
+                <p>
+                  I'm a software engineer emphasized on the creation of
+                  responsive websites and mobile applications. I have my Masters
+                  in Information Technology Management and am a certified
+                  Project Management Professional (PMP).
+                  <br />
+                  <br />I joined Toastmasters to improve my confidence in public
+                  speaking, and improve my leadership abilities.
+                </p>
+              </div>
+              <a
+                href="/"
+                className="social-icon si-rounded si-small si-facebook"
               >
-                <div className="team-content">
-                  <p>
-                    I'm a software engineer emphasized on the creation of
-                    responsive websites and mobile applications. I have my
-                    Masters in Information Technology Management and am a
-                    certified Project Management Professional (PMP).
-                    <br />
-                    <br />I joined Toastmasters to improve my confidence in
-                    public speaking, and improve my leadership abilities.
-                  </p>
-                </div>
-                <a
-                  href="/"
-                  className="social-icon si-rounded si-small si-facebook"
-                >
-                  <i className="icon-facebook"></i>
-                  <i className="icon-facebook"></i>
-                </a>
-                <a
-                  href="/"
-                  className="social-icon si-rounded si-small si-twitter"
-                >
-                  <i className="icon-twitter"></i>
-                  <i className="icon-twitter"></i>
-                </a>
-                <a
-                  href="/"
-                  className="social-icon si-rounded si-small si-gplus"
-                >
-                  <i className="icon-gplus"></i>
-                  <i className="icon-gplus"></i>
-                </a>
-              </Membercard>
-            </div>
-
-            {/* <!-- Our Team Row 1 Right Pic
-            ============================================= --> */}
-            <div className="col-lg-6 bottommargin">
-              <Membercard
-                name="Bob Caldwell, ACB, CL"
-                jobtitle="Immediate Past President"
-                imgurl="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/toastmaster-international-banner.jpg"
-                imgalt="Bob Caldwell"
+                <i className="icon-facebook"></i>
+                <i className="icon-facebook"></i>
+              </a>
+              <a
+                href="/"
+                className="social-icon si-rounded si-small si-twitter"
               >
-                <div className="team-content">
-                  <p>
-                    Bob is a futurist and inventor, currently working as a
-                    master mechanic rebuilding transmissions. He has over 100
-                    inventions to his name as is in the process of developing
-                    presentations for Venture Capitalists and using the
-                    Toastmaster Club forum as a testing ground. An author and
-                    past television program host, he keeps improving his skills
-                    through the Toastmasters program.
-                  </p>
-                </div>
-                <a
-                  href="/"
-                  className="social-icon si-rounded si-small si-forrst"
-                >
-                  <i className="icon-forrst"></i>
-                  <i className="icon-forrst"></i>
-                </a>
-                <a
-                  href="/"
-                  className="social-icon si-rounded si-small si-skype"
-                >
-                  <i className="icon-skype"></i>
-                  <i className="icon-skype"></i>
-                </a>
-                <a
-                  href="/"
-                  className="social-icon si-rounded si-small si-flickr"
-                >
-                  <i className="icon-flickr"></i>
-                  <i className="icon-flickr"></i>
-                </a>
-              </Membercard>
-            </div>
+                <i className="icon-twitter"></i>
+                <i className="icon-twitter"></i>
+              </a>
+              <a href="/" className="social-icon si-rounded si-small si-gplus">
+                <i className="icon-gplus"></i>
+                <i className="icon-gplus"></i>
+              </a>
+            </Membercard>
           </div>
 
-          {/* <!-- Our Team Row 2
+          {/* <!-- Our Team Row 1 Right Pic
           ============================================= --> */}
-          <div className="row">
-            <div className="col-lg-6 bottommargin">
-              <Membercard
-                name="Michael Pruett, PM5, EH2"
-                jobtitle="VP of Education"
-                imgurl="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/toastmaster-international-banner.jpg"
-                imgalt="Michael Pruett"
-              >
-                <div className="team-content">
-                  <p>
-                    I was born in Oakland, California and grew up in Berkeley. I
-                    am a retired CPA with a Masters in Taxation. I am a
-                    volunteer at the Antioch Family History where I help people
-                    research their family trees with free access to the world's
-                    largest genealogy record databases. I am currently working
-                    on the Toastmaster's Engaging Humor Pathway. I am interested
-                    in Gelotology - the study of laughter and its healing effect
-                    on the mind and body.
-                  </p>
-                </div>
-                <a
-                  href="/"
-                  className="social-icon si-rounded si-small si-facebook"
-                >
-                  <i className="icon-facebook"></i>
-                  <i className="icon-facebook"></i>
-                </a>
-                <a
-                  href="/"
-                  className="social-icon si-rounded si-small si-twitter"
-                >
-                  <i className="icon-twitter"></i>
-                  <i className="icon-twitter"></i>
-                </a>
-                <a
-                  href="/"
-                  className="social-icon si-rounded si-small si-gplus"
-                >
-                  <i className="icon-gplus"></i>
-                  <i className="icon-gplus"></i>
-                </a>
-              </Membercard>
-            </div>
-            <div className="col-lg-6 bottommargin">
-              <Membercard
-                name="Joe Amaro, DTM"
-                jobtitle="VP of Membership"
-                imgurl="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/joe-amaro.jpg"
-                imgalt="Joe Amaro"
-              >
-                <div className="team-content">
-                  <p>
-                    Immediate Past President (2017-2018), Area Director,
-                    Toastmasters District 57, Division B (2015). Management
-                    Consultant and Trainer for over 25 years. Educated at Yale
-                    University and Stanford Graduate School of Business. Past
-                    President Creating Communicators (2010, 2014,2016, 2018);
-                    Past District 57 Lt. Governor for Education (1984); Past
-                    President La Raza TM Club (1991); Past President Castro
-                    Valley #961 (1981).
-                  </p>
-                </div>
-                <a
-                  href="/"
-                  className="social-icon si-rounded si-small si-forrst"
-                >
-                  <i className="icon-forrst"></i>
-                  <i className="icon-forrst"></i>
-                </a>
-                <a
-                  href="/"
-                  className="social-icon si-rounded si-small si-skype"
-                >
-                  <i className="icon-skype"></i>
-                  <i className="icon-skype"></i>
-                </a>
-                <a
-                  href="/"
-                  className="social-icon si-rounded si-small si-flickr"
-                >
-                  <i className="icon-flickr"></i>
-                  <i className="icon-flickr"></i>
-                </a>
-              </Membercard>
-            </div>
+          <div className="col-lg-6 bottommargin">
+            <Membercard
+              name="Bob Caldwell, ACB, CL"
+              jobtitle="Immediate Past President"
+              imgurl="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/toastmaster-international-banner.jpg"
+              imgalt="Bob Caldwell"
+            >
+              <div className="team-content">
+                <p>
+                  Bob is a futurist and inventor, currently working as a master
+                  mechanic rebuilding transmissions. He has over 100 inventions
+                  to his name as is in the process of developing presentations
+                  for Venture Capitalists and using the Toastmaster Club forum
+                  as a testing ground. An author and past television program
+                  host, he keeps improving his skills through the Toastmasters
+                  program.
+                </p>
+              </div>
+              <a href="/" className="social-icon si-rounded si-small si-forrst">
+                <i className="icon-forrst"></i>
+                <i className="icon-forrst"></i>
+              </a>
+              <a href="/" className="social-icon si-rounded si-small si-skype">
+                <i className="icon-skype"></i>
+                <i className="icon-skype"></i>
+              </a>
+              <a href="/" className="social-icon si-rounded si-small si-flickr">
+                <i className="icon-flickr"></i>
+                <i className="icon-flickr"></i>
+              </a>
+            </Membercard>
           </div>
-          {/* <!-- Our Team Row 3
-          ============================================= --> */}
-          <div className="row">
-            <div className="col-lg-6 bottommargin">
-              <Membercard
-                name="John Case, ACB, PI1"
-                jobtitle="VP of Public Relations"
-                imgurl="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/toastmaster-international-banner.jpg"
-                imgalt="John Case"
+        </div>
+
+        {/* <!-- Our Team Row 2
+        ============================================= --> */}
+        <div className="row">
+          <div className="col-lg-6 bottommargin">
+            <Membercard
+              name="Michael Pruett, PM5, EH2"
+              jobtitle="VP of Education"
+              imgurl="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/toastmaster-international-banner.jpg"
+              imgalt="Michael Pruett"
+            >
+              <div className="team-content">
+                <p>
+                  I was born in Oakland, California and grew up in Berkeley. I
+                  am a retired CPA with a Masters in Taxation. I am a volunteer
+                  at the Antioch Family History where I help people research
+                  their family trees with free access to the world's largest
+                  genealogy record databases. I am currently working on the
+                  Toastmaster's Engaging Humor Pathway. I am interested in
+                  Gelotology - the study of laughter and its healing effect on
+                  the mind and body.
+                </p>
+              </div>
+              <a
+                href="/"
+                className="social-icon si-rounded si-small si-facebook"
               >
-                <div className="team-content">
-                  <p>
-                    I have been a member of TI since 1984, off and on. I enjoy
-                    the challenge of extemporaneous speaking and sharing my
-                    experience with others.
-                    <br />
-                    <br />I am a Real Estate Broker and part of my success is
-                    communicating to my client thanks to TI!
-                  </p>
-                </div>
-                <a
-                  href="/"
-                  className="social-icon si-rounded si-small si-facebook"
-                >
-                  <i className="icon-facebook"></i>
-                  <i className="icon-facebook"></i>
-                </a>
-                <a
-                  href="/"
-                  className="social-icon si-rounded si-small si-twitter"
-                >
-                  <i className="icon-twitter"></i>
-                  <i className="icon-twitter"></i>
-                </a>
-                <a
-                  href="/"
-                  className="social-icon si-rounded si-small si-gplus"
-                >
-                  <i className="icon-gplus"></i>
-                  <i className="icon-gplus"></i>
-                </a>
-              </Membercard>
-            </div>
-            <div className="col-lg-6 bottommargin">
-              <Membercard
-                name="Stacey Saadiq, MS3"
-                jobtitle="Secretary"
-                imgurl="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/toastmaster-international-banner.jpg"
-                imgalt="Stacey Saadiq"
+                <i className="icon-facebook"></i>
+                <i className="icon-facebook"></i>
+              </a>
+              <a
+                href="/"
+                className="social-icon si-rounded si-small si-twitter"
               >
-                <div className="team-content">
-                  <p>
-                    Stacey has been a Toast Master since 2017. She is a world
-                    traveler and author of a children’s book. She is also a
-                    licensed Center for Spiritual Living Practitioner. She has
-                    chosen the Pathway, "Motivational Speaking" to help her
-                    achieve her goals.
-                  </p>
-                </div>
-                <a
-                  href="/"
-                  className="social-icon si-rounded si-small si-forrst"
-                >
-                  <i className="icon-forrst"></i>
-                  <i className="icon-forrst"></i>
-                </a>
-                <a
-                  href="/"
-                  className="social-icon si-rounded si-small si-skype"
-                >
-                  <i className="icon-skype"></i>
-                  <i className="icon-skype"></i>
-                </a>
-                <a
-                  href="/"
-                  className="social-icon si-rounded si-small si-flickr"
-                >
-                  <i className="icon-flickr"></i>
-                  <i className="icon-flickr"></i>
-                </a>
-              </Membercard>
-            </div>
+                <i className="icon-twitter"></i>
+                <i className="icon-twitter"></i>
+              </a>
+              <a href="/" className="social-icon si-rounded si-small si-gplus">
+                <i className="icon-gplus"></i>
+                <i className="icon-gplus"></i>
+              </a>
+            </Membercard>
           </div>
+          <div className="col-lg-6 bottommargin">
+            <Membercard
+              name="Joe Amaro, DTM"
+              jobtitle="VP of Membership"
+              imgurl="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/joe-amaro.jpg"
+              imgalt="Joe Amaro"
+            >
+              <div className="team-content">
+                <p>
+                  Immediate Past President (2017-2018), Area Director,
+                  Toastmasters District 57, Division B (2015). Management
+                  Consultant and Trainer for over 25 years. Educated at Yale
+                  University and Stanford Graduate School of Business. Past
+                  President Creating Communicators (2010, 2014,2016, 2018); Past
+                  District 57 Lt. Governor for Education (1984); Past President
+                  La Raza TM Club (1991); Past President Castro Valley #961
+                  (1981).
+                </p>
+              </div>
+              <a href="/" className="social-icon si-rounded si-small si-forrst">
+                <i className="icon-forrst"></i>
+                <i className="icon-forrst"></i>
+              </a>
+              <a href="/" className="social-icon si-rounded si-small si-skype">
+                <i className="icon-skype"></i>
+                <i className="icon-skype"></i>
+              </a>
+              <a href="/" className="social-icon si-rounded si-small si-flickr">
+                <i className="icon-flickr"></i>
+                <i className="icon-flickr"></i>
+              </a>
+            </Membercard>
+          </div>
+        </div>
+
+        {/* <!-- Our Team Row 3
+        ============================================= --> */}
+        <div className="row">
+          <div className="col-lg-6 bottommargin">
+            <Membercard
+              name="Stacey Saadiq, MS3"
+              jobtitle="Secretary"
+              imgurl="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/toastmaster-international-banner.jpg"
+              imgalt="Stacey Saadiq"
+            >
+              <div className="team-content">
+                <p>
+                  Stacey has been a Toast Master since 2017. She is a world
+                  traveler and author of a children’s book. She is also a
+                  licensed Center for Spiritual Living Practitioner. She has
+                  chosen the Pathway, "Motivational Speaking" to help her
+                  achieve her goals.
+                </p>
+              </div>
+              <a href="/" className="social-icon si-rounded si-small si-forrst">
+                <i className="icon-forrst"></i>
+                <i className="icon-forrst"></i>
+              </a>
+              <a href="/" className="social-icon si-rounded si-small si-skype">
+                <i className="icon-skype"></i>
+                <i className="icon-skype"></i>
+              </a>
+              <a href="/" className="social-icon si-rounded si-small si-flickr">
+                <i className="icon-flickr"></i>
+                <i className="icon-flickr"></i>
+              </a>
+            </Membercard>
+          </div>
+          <div className="col-lg-6 bottommargin">
+            <Membercard
+              name="Adalberto Cuellar Franco"
+              jobtitle="Sergeant at Arms"
+              imgurl="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/toastmaster-international-banner.jpg"
+              imgalt="Adalberto Cuellar Franco"
+            >
+              <div className="team-content">
+                <p>
+                  {/* bio */}
+                </p>
+              </div>
+              <a
+                href="/"
+                className="social-icon si-rounded si-small si-facebook"
+              >
+                <i className="icon-facebook"></i>
+                <i className="icon-facebook"></i>
+              </a>
+              <a
+                href="/"
+                className="social-icon si-rounded si-small si-twitter"
+              >
+                <i className="icon-twitter"></i>
+                <i className="icon-twitter"></i>
+              </a>
+              <a href="/" className="social-icon si-rounded si-small si-gplus">
+                <i className="icon-gplus"></i>
+                <i className="icon-gplus"></i>
+              </a>
+            </Membercard>
+          </div>
+        </div>{/* /row */}
+
+        {/* <!-- Our Team Row 4
+        ============================================= --> */}
+        <div className="row">
+          <div className="col-lg-6 bottommargin">
+            <Membercard
+              name="David Selvin"
+              jobtitle="VP of Public Relations"
+              imgurl="https://d1xrp9zhb3ks3c.cloudfront.net/web/antioch-toastmasters/images/toastmaster-international-banner.jpg"
+              imgalt="David Selvin"
+            >
+              <div className="team-content">
+                <p>
+                  {/* bio */}
+                </p>
+              </div>
+              <a
+                href="/"
+                className="social-icon si-rounded si-small si-facebook"
+              >
+                <i className="icon-facebook"></i>
+                <i className="icon-facebook"></i>
+              </a>
+              <a
+                href="/"
+                className="social-icon si-rounded si-small si-twitter"
+              >
+                <i className="icon-twitter"></i>
+                <i className="icon-twitter"></i>
+              </a>
+              <a href="/" className="social-icon si-rounded si-small si-gplus">
+                <i className="icon-gplus"></i>
+                <i className="icon-gplus"></i>
+              </a>
+            </Membercard>
+          </div>
+          
+        </div>{/* /row */}
+
         </div>
         <div className="section topmargin-sm footer-stick">
           <h4 className="uppercase center">
